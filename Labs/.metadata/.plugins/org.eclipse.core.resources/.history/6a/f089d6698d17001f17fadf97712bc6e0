@@ -1,0 +1,75 @@
+package ch.hevs.mercatoservice;
+
+import java.util.List;
+
+import ch.hevs.businessobject.Club;
+import ch.hevs.businessobject.Player;
+import jakarta.ejb.Stateful;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
+import jakarta.persistence.PersistenceContextType;
+import jakarta.persistence.Query;
+
+@Stateful
+public class MercatoBean implements Mercato {
+    
+    @PersistenceContext(unitName = "MercatoPU", type=PersistenceContextType.EXTENDED)
+    private EntityManager em;
+
+    // Get a club by name
+    public Club getClub(String clubName) {
+        Query query = em.createQuery("FROM Club c WHERE c.name = :name");
+        query.setParameter("name", clubName);
+        return (Club) query.getSingleResult();
+    }
+
+    // Get a list of players by club name
+    public List<Player> getPlayerFromClubName(String clubName) {
+        Query query = em.createQuery("SELECT p FROM Player p WHERE CONCAT(p.firstname, ' ', p.lastname) IN "
+                + "(SELECT CONCAT(p2.firstname, ' ', p2.lastname) FROM Player p2 WHERE p2.club.name = :clubName)");
+        query.setParameter("clubName", clubName);
+        return query.getResultList();
+    }
+
+    // Transfer a player from one club to another
+    public void transfer(Player player, Club newClub) {
+        Club oldClub = player.getClub();
+        if (oldClub != null) {
+            oldClub.removePlayer(player);
+            em.merge(oldClub);
+        }
+
+        newClub.addPlayer(player);
+        em.merge(newClub);
+        em.merge(player);
+    }
+
+    // Get a list of all players
+    public List<Player> getPlayers() {
+        return em.createQuery("FROM Player").getResultList();
+    }
+    
+    // Get a list of all clubs
+    public List<Club> getAllClubs() {
+        return em.createQuery("FROM Club").getResultList();
+    }
+
+    // Get a specific player by ID
+    public Player getPlayer(int playerId) {
+        return em.find(Player.class, playerId);
+    }
+
+    // Get the club of a player
+    public String getPlayerClub(String playerName) {
+        Query query = em.createQuery("SELECT p.club.name FROM Player p WHERE CONCAT(p.firstname, ' ', p.lastname) = :playerName");
+        query.setParameter("playerName", playerName);
+        List<String> result = query.getResultList();
+        return result.isEmpty() ? null : result.get(0);
+    }
+
+	@Override
+	public void transfer(Player name, Club clubArrivee, int transactionAmount) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+}

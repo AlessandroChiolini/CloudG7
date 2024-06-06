@@ -1,0 +1,21 @@
+package ch.hevs.bankservice;
+
+import java.util.List;
+
+import ch.hevs.businessobject.Club;
+import ch.hevs.businessobject.Client;
+import jakarta.ejb.Local;
+
+@Local
+public interface Bank {
+
+	Club getClub(String accountDescription, String lastnameOwner);
+	
+	public List<Club> getClubListFromClientLastname(String lastname);
+
+	void transfer(Club compteSrc, Club compteDest, int montant) throws Exception;
+
+	List<Client> getClients();
+
+	Client getClient(long clientid);
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/aless/.m2/repository/jakarta/platform/jakarta.jakartaee-web-api/9.0.0/jakarta.jakartaee-web-api-9.0.0.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jboss.cdi.core"/>
+  <el>
+   <linked-el length="36" name="%0" offset="1114" path="%1"/>
+   <linked-el length="50" name="%2" offset="356" path="%3"/>
+   <linked-el length="34" name="%4" offset="650" path="%1"/>
+   <linked-el length="39" name="%5" offset="883" path="%1"/>
+   <linked-el length="33" name="%6" offset="1253" path="%1"/>
+   <linked-el length="36" name="%7" offset="499" path="%8"/>
+   <linked-el length="39" name="%9" offset="883" path="%1"/>
+   <linked-el length="32" name="%9" offset="719" path="%1"/>
+   <linked-el length="36" name="%9" offset="499" path="%8"/>
+   <linked-el length="32" name="%9" offset="957" path="%1"/>
+   <linked-el length="34" name="%9" offset="650" path="%1"/>
+   <linked-el length="36" name="%9" offset="1114" path="%1"/>
+   <linked-el length="33" name="%9" offset="1253" path="%1"/>
+   <linked-el length="32" name="%10" offset="719" path="%1"/>
+   <linked-el length="32" name="%10" offset="957" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias
+   path="/TP05-WEB-STATELESS-DAO-E-solution/src/main/webapp/showTransferResult.xhtml" value="%8"/>
+  <alias path="transferBean.transactionAmount" value="%0"/>
+  <alias path="initParam" value="%2"/>
+  <alias path="transferBean.sourceClientName" value="%4"/>
+  <alias
+   path="/TP05-WEB-STATELESS-DAO-E-solution/src/main/webapp/transferForm.xhtml" value="%1"/>
+  <alias path="transferBean.destinationClientName" value="%5"/>
+  <alias path="transferBean.performTransfer" value="%6"/>
+  <alias
+   path="/TP05-WEB-STATELESS-DAO-E-solution/src/main/webapp/WEB-INF/templates/BasicTemplate.xhtml" value="%3"/>
+  <alias path="transferBean.transactionResult" value="%7"/>
+  <alias path="transferBean" value="%9"/>
+  <alias path="transferBean.clientNameList" value="%10"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>

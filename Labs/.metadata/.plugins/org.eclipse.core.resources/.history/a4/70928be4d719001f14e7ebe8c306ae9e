@@ -1,0 +1,30 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+    <title>Add Club</title>
+</h:head>
+<ui:composition template="/WEB-INF/templates/BasicTemplate.xhtml">
+    <ui:define name="content">
+    <h:form>
+        <h:outputLabel for="name" value="Name: " />
+        <h:inputText id="name" value="#{footballBean.clubName}" /><br/>
+
+        <h:outputLabel for="foundationYear" value="Foundation Year: " />
+        <h:inputText id="foundationYear" value="#{footballBean.clubFoundationYear}" /><br/>
+
+        <h:outputLabel for="stadium" value="Stadium: " />
+        <h:inputText id="stadium" value="#{footballBean.clubStadium}" /><br/>
+
+        <h:outputLabel for="leagueId" value="League: " />
+        <h:selectOneMenu id="leagueId" value="#{footballBean.clubLeagueId}">
+            <f:selectItems value="#{footballBean.leagues}" var="league" itemValue="#{league.id}" itemLabel="#{league.name}" />
+        </h:selectOneMenu><br/>
+
+        <h:commandButton value="Add Club" action="#{footballBean.addClub}" />
+        <h:commandButton value="Back to Welcome Page" action="welcomePage" />
+    </h:form>
+</ui:define>
+</ui:composition>
+</html>

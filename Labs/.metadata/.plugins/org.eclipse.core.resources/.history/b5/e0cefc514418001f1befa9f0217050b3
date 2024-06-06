@@ -1,0 +1,29 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+    <title>Add Player</title>
+</h:head>
+<h:body>
+    <h:form>
+        <h:outputLabel for="firstName" value="First Name: " />
+        <h:inputText id="firstName" value="#{transferBean.playerFirstName}" /><br/>
+
+        <h:outputLabel for="lastName" value="Last Name: " />
+        <h:inputText id="lastName" value="#{transferBean.playerLastName}" /><br/>
+
+        <h:outputLabel for="age" value="Age: " />
+        <h:inputText id="age" value="#{transferBean.playerAge}" /><br/>
+
+        <h:outputLabel for="nationality" value="Nationality: " />
+        <h:inputText id="nationality" value="#{transferBean.playerNationality}" /><br/>
+
+        <h:outputLabel for="clubId" value="Club: " />
+        <h:selectOneMenu id="clubId" value="#{transferBean.playerClubId}">
+            <f:selectItems value="#{transferBean.clubs}" var="club" itemValue="#{club.id}" itemLabel="#{club.name}" />
+        </h:selectOneMenu><br/>
+
+        <h:commandButton value="Add Player" action="#{footballBean.addPlayer}" />
+    </h:form>
+</h:body>
+</html>

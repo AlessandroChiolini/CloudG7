@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14093017708690" configfile="/TP06-WEB-STATEFUL-DAO-E-solution/src/main/webapp/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="showTransferResult.xhtml" x="624" y="261" id="pf14093019671032" referenceLink="//@navigationRule.3/@fromViewId|" outlinks="pf14093328854740" inlinks="pf14093019671033" path="/showTransferResult.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="welcomeBank.xhtml" x="108" y="246" id="pf14093019671034" referenceLink="//@navigationRule.2/@fromViewId|" outlinks="pf14093019671035 pf14093046265347" path="/welcomeBank.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="transferForm.xhtml" x="360" y="261" id="pf14093019671036" referenceLink="//@navigationRule.1/@fromViewId|" outlinks="pf14093019671033" inlinks="pf14093019671035" path="/transferForm.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="showHistory.xhtml" x="336" y="384" id="pf14093046265348" referenceLink="//@navigationRule.3/@navigationCase.0/@toViewId|" inlinks="pf14093046265347 pf14093328854740" path="/showHistory.xhtml"/>
+  <links id="pf14093019671035" target="pf14093019671036" source="pf14093019671034" outcome="transferForm"/>
+  <links id="pf14093019671033" target="pf14093019671032" source="pf14093019671036" outcome="#{transferBean.performTransfer}"/>
+  <links id="pf14093046265347" target="pf14093046265348" source="pf14093019671034" outcome="showHistory"/>
+  <links id="pf14093328854740" target="pf14093046265348" source="pf14093019671032" outcome="showHistory"/>
+</pageflow:Pageflow>

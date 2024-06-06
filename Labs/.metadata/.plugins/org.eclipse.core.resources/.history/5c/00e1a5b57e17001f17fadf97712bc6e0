@@ -1,0 +1,42 @@
+package ch.hevs.businessobject;
+
+import jakarta.faces.component.UIComponent;
+import jakarta.faces.context.FacesContext;
+import jakarta.faces.convert.Converter;
+import jakarta.faces.convert.FacesConverter;
+
+import ch.hevs.businessobject.Player;
+import ch.hevs.mercatoservice.Mercato;
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+
+@FacesConverter(forClass = Player.class)
+public class PlayerConverter implements Converter<Player> {
+
+    private Mercato mercato;
+
+    public PlayerConverter() {
+        try {
+            InitialContext ctx = new InitialContext();
+            mercato = (Mercato) ctx.lookup("java:global/TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT/MercatoBean!ch.hevs.mercatoservice.Mercato");
+        } catch (NamingException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public Player getAsObject(FacesContext context, UIComponent component, String value) {
+        if (value == null || value.isEmpty()) {
+            return null;
+        }
+        return mercato.getPlayer(Integer.parseInt(value));
+    }
+
+    @Override
+    public String getAsString(FacesContext context, UIComponent component, Player player) {
+        if (player == null) {
+            return "";
+        }
+        return String.valueOf(player.getPlayerId());
+    }
+}

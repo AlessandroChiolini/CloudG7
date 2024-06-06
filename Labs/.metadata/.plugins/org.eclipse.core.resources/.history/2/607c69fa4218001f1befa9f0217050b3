@@ -1,0 +1,21 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+    <title>Add League</title>
+</h:head>
+<h:body>
+    <h:form>
+        <h:outputLabel for="name" value="Name: " />
+        <h:inputText id="name" value="#{transferBean.leagueName}" /><br/>
+
+        <h:outputLabel for="country" value="Country: " />
+        <h:inputText id="country" value="#{transferBean.leagueCountry}" /><br/>
+
+        <h:outputLabel for="season" value="Season: " />
+        <h:inputText id="season" value="#{transferBean.leagueSeason}" /><br/>
+
+        <h:commandButton value="Add League" action="#{transferBean.addLeague}" />
+    </h:form>
+</h:body>
+</html>

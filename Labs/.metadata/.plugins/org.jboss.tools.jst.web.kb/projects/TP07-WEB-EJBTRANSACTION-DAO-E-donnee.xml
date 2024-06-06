@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/aless/.m2/repository/jakarta/platform/jakarta.jakartaee-web-api/9.0.0/jakarta.jakartaee-web-api-9.0.0.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jboss.cdi.core"/>
+  <el>
+   <linked-el length="36" name="%0" offset="1114" path="%1"/>
+   <linked-el length="34" name="%2" offset="650" path="%1"/>
+   <linked-el length="50" name="%3" offset="356" path="%4"/>
+   <linked-el length="39" name="%5" offset="883" path="%1"/>
+   <linked-el length="33" name="%6" offset="1253" path="%1"/>
+   <linked-el length="31" name="%6" offset="940" path="%7"/>
+   <linked-el length="36" name="%8" offset="499" path="%9"/>
+   <linked-el length="33" name="%10" offset="1253" path="%1"/>
+   <linked-el length="36" name="%10" offset="499" path="%9"/>
+   <linked-el length="39" name="%10" offset="883" path="%1"/>
+   <linked-el length="31" name="%10" offset="940" path="%7"/>
+   <linked-el length="32" name="%10" offset="957" path="%1"/>
+   <linked-el length="34" name="%10" offset="650" path="%1"/>
+   <linked-el length="36" name="%10" offset="1114" path="%1"/>
+   <linked-el length="32" name="%10" offset="719" path="%1"/>
+   <linked-el length="32" name="%11" offset="957" path="%1"/>
+   <linked-el length="32" name="%11" offset="719" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias
+   path="/TP07-WEB-EJBTRANSACTION-DAO-E-donnee/src/main/webapp/showTransferResult.xhtml" value="%9"/>
+  <alias path="transferBean.transactionAmount" value="%0"/>
+  <alias
+   path="/TP07-WEB-EJBTRANSACTION-DAO-E-donnee/src/main/webapp/WEB-INF/faces-config.xml" value="%7"/>
+  <alias path="transferBean.sourceClientName" value="%2"/>
+  <alias path="initParam" value="%3"/>
+  <alias path="transferBean.destinationClientName" value="%5"/>
+  <alias path="transferBean.performTransfer" value="%6"/>
+  <alias
+   path="/TP07-WEB-EJBTRANSACTION-DAO-E-donnee/src/main/webapp/transferForm.xhtml" value="%1"/>
+  <alias path="transferBean.transactionResult" value="%8"/>
+  <alias
+   path="/TP07-WEB-EJBTRANSACTION-DAO-E-donnee/src/main/webapp/WEB-INF/templates/BasicTemplate.xhtml" value="%4"/>
+  <alias path="transferBean" value="%10"/>
+  <alias path="transferBean.clientNameList" value="%11"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>

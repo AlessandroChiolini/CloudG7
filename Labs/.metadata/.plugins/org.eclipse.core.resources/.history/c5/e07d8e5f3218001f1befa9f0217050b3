@@ -1,0 +1,106 @@
+package ch.hevs.footballservice;
+
+import java.util.List;
+
+import ch.hevs.businessobject.Player;
+import ch.hevs.businessobject.Club;
+import ch.hevs.businessobject.League;
+import jakarta.ejb.Stateless;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
+import jakarta.persistence.PersistenceContextType;
+import jakarta.persistence.Query;
+
+@Stateless
+public class FootballBean implements FootballService {
+
+    @PersistenceContext(unitName = "footballPU", type = PersistenceContextType.TRANSACTION)
+    private EntityManager em;
+
+    // Player related methods
+    @Override
+    public void addPlayer(Player player) {
+        em.persist(player);
+    }
+
+    @Override
+    public Player getPlayer(Long playerId) {
+        return em.find(Player.class, playerId);
+    }
+
+    @Override
+    public List<Player> getAllPlayers() {
+        return em.createQuery("SELECT p FROM Player p", Player.class).getResultList();
+    }
+
+    @Override
+    public void updatePlayer(Player player) {
+        em.merge(player);
+    }
+
+    @Override
+    public void deletePlayer(Long playerId) {
+        Player player = getPlayer(playerId);
+        if (player != null) {
+            em.remove(player);
+        }
+    }
+
+    // Club related methods
+    @Override
+    public void addClub(Club club) {
+        em.persist(club);
+    }
+
+    @Override
+    public Club getClub(Long clubId) {
+        return em.find(Club.class, clubId);
+    }
+
+    @Override
+    public List<Club> getAllClubs() {
+        return em.createQuery("SELECT c FROM Club c", Club.class).getResultList();
+    }
+
+    @Override
+    public void updateClub(Club club) {
+        em.merge(club);
+    }
+
+    @Override
+    public void deleteClub(Long clubId) {
+        Club club = getClub(clubId);
+        if (club != null) {
+            em.remove(club);
+        }
+    }
+
+    // League related methods
+    @Override
+    public void addLeague(League league) {
+        em.persist(league);
+    }
+
+    @Override
+    public League getLeague(Long leagueId) {
+        return em.find(League.class, leagueId);
+    }
+
+    @Override
+    public List<League> getAllLeagues() {
+        return em.createQuery("SELECT l FROM League l", League.class).getResultList();
+    }
+
+    @Override
+    public void updateLeague(League league) {
+        em.merge(league);
+    }
+
+    @Override
+    public void deleteLeague(Long leagueId) {
+        League league = getLeague(leagueId);
+        if (league != null) {
+            em.remove(league);
+        }
+    }
+}

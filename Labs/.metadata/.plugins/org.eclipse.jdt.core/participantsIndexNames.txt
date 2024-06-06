@@ -1,0 +1,5 @@
+INDEX VERSION 1.134
+C:\Users\aless\OneDrive\Bureau\Jakarta\rootJakartaEE\Labs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4016893441.index
+\TP02-WEB-JSP-SERVLET-E-donnee\src\main\java
+C:\Users\aless\OneDrive\Bureau\Jakarta\rootJakartaEE\Labs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3872942185.index
+\TP02-WEB-JSP-SERVLET-E-donnee\src\main\java

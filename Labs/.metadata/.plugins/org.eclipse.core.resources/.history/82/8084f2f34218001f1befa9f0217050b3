@@ -1,0 +1,26 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+    <title>Add Club</title>
+</h:head>
+<h:body>
+    <h:form>
+        <h:outputLabel for="name" value="Name: " />
+        <h:inputText id="name" value="#{transferBean.clubName}" /><br/>
+
+        <h:outputLabel for="foundationYear" value="Foundation Year: " />
+        <h:inputText id="foundationYear" value="#{transferBean.clubFoundationYear}" /><br/>
+
+        <h:outputLabel for="stadium" value="Stadium: " />
+        <h:inputText id="stadium" value="#{transferBean.clubStadium}" /><br/>
+
+        <h:outputLabel for="leagueId" value="League: " />
+        <h:selectOneMenu id="leagueId" value="#{transferBean.clubLeagueId}">
+            <f:selectItems value="#{transferBean.leagues}" var="league" itemValue="#{league.id}" itemLabel="#{league.name}" />
+        </h:selectOneMenu><br/>
+
+        <h:commandButton value="Add Club" action="#{transferBean.addClub}" />
+    </h:form>
+</h:body>
+</html>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf141026243930813" configfile="/TP04-WEB-JTA-POJO-DAO-E-donnee/src/main/webapp/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="welcomeBank.xhtml" x="122" y="178" id="pf141026245546314" referenceLink="//@navigationRule.0/@fromViewId|" outlinks="pf141026245546315" path="/welcomeBank.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="transferForm.xhtml" x="338" y="178" id="pf141026245546316" referenceLink="//@navigationRule.1/@fromViewId|" outlinks="pf141026245546317" inlinks="pf141026245546315" path="/transferForm.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="showTransferResult.xhtml" x="554" y="178" id="pf141026245546318" referenceLink="//@navigationRule.1/@navigationCase.0/@toViewId|" inlinks="pf141026245546317" path="/showTransferResult.xhtml"/>
+  <links id="pf141026245546315" target="pf141026245546316" source="pf141026245546314" outcome="transferForm"/>
+  <links id="pf141026245546317" target="pf141026245546318" source="pf141026245546316" outcome="#{transferBean.performTransfer}"/>
+</pageflow:Pageflow>

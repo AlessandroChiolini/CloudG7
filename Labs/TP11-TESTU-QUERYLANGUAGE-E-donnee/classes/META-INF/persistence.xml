@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence>
+
+
+	<persistence-unit name="bankPU">
+
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<class>ch.hevs.businessobject.Client</class>
+		<class>ch.hevs.businessobject.Account</class>
+		<class>ch.hevs.businessobject.Person</class>
+		<class>ch.hevs.businessobject.InternalAccount</class>
+		<class>ch.hevs.businessobject.Account</class>
+		<class>ch.hevs.businessobject.ExternalAccount</class>
+		<class>ch.hevs.businessobject.Operation</class>
+		<class>ch.hevs.businessobject.Person</class>
+		<class>ch.hevs.businessobject.Agency</class>
+		<properties>
+			<property name="hibernate.connection.url"
+				value="jdbc:hsqldb:hsql://localhost/DB" />
+			<property name="hibernate.connection.driver_class"
+				value="org.hsqldb.jdbcDriver" />
+			<property name="hibernate.connection.username" value="sa" />
+			<property name="hibernate.connection.password" value="" />
+			<property name="hibernate.show_sql" value="true" />
+
+		</properties>
+
+	</persistence-unit>
+
+</persistence>

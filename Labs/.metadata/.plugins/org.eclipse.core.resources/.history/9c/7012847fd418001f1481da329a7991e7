@@ -1,0 +1,176 @@
+package ch.hevs.test;
+
+import org.junit.Test;
+
+import ch.hevs.businessobject.Player;
+import ch.hevs.businessobject.Club;
+import ch.hevs.businessobject.League;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.EntityTransaction;
+import jakarta.persistence.Persistence;
+import junit.framework.TestCase;
+
+public class PopulateDB extends TestCase {
+
+    @Test
+    public void test() {
+        
+        EntityTransaction tx = null;
+        try {
+            
+            EntityManagerFactory emf = Persistence.createEntityManagerFactory("bankPU_unitTest");
+            EntityManager em = emf.createEntityManager();
+            tx = em.getTransaction();
+            tx.begin();
+            
+            // Create Leagues
+            League league1 = new League("Premier League", "England", "2023/2024");
+            League league2 = new League("La Liga", "Spain", "2023/2024");
+            League league3 = new League("Serie A", "Italy", "2023/2024");
+
+            // Create Clubs for Premier League
+            Club club1 = new Club("Manchester United", 1878, "Old Trafford", league1);
+            Club club2 = new Club("Liverpool", 1892, "Anfield", league1);
+            Club club3 = new Club("Chelsea", 1905, "Stamford Bridge", league1);
+
+            // Create Clubs for La Liga
+            Club club4 = new Club("Real Madrid", 1902, "Santiago Bernabeu", league2);
+            Club club5 = new Club("Barcelona", 1899, "Camp Nou", league2);
+            Club club6 = new Club("Atletico Madrid", 1903, "Wanda Metropolitano", league2);
+
+            // Create Clubs for Serie A
+            Club club7 = new Club("Juventus", 1897, "Allianz Stadium", league3);
+            Club club8 = new Club("AC Milan", 1899, "San Siro", league3);
+            Club club9 = new Club("Inter Milan", 1908, "San Siro", league3);
+
+            // Create Players for Premier League Clubs
+            Player player1 = new Player("Cristiano", "Ronaldo", 37, "Portugal", club1);
+            Player player2 = new Player("Marcus", "Rashford", 24, "England", club1);
+            Player player3 = new Player("Paul", "Pogba", 28, "France", club1);
+            Player player4 = new Player("Harry", "Maguire", 28, "England", club1);
+            Player player5 = new Player("David", "de Gea", 30, "Spain", club1);
+
+            Player player6 = new Player("Mohamed", "Salah", 29, "Egypt", club2);
+            Player player7 = new Player("Sadio", "Mane", 29, "Senegal", club2);
+            Player player8 = new Player("Virgil", "van Dijk", 30, "Netherlands", club2);
+            Player player9 = new Player("Jordan", "Henderson", 31, "England", club2);
+            Player player10 = new Player("Alisson", "Becker", 29, "Brazil", club2);
+
+            Player player11 = new Player("N'Golo", "Kante", 30, "France", club3);
+            Player player12 = new Player("Mason", "Mount", 22, "England", club3);
+            Player player13 = new Player("Timo", "Werner", 25, "Germany", club3);
+            Player player14 = new Player("Kai", "Havertz", 22, "Germany", club3);
+            Player player15 = new Player("Edouard", "Mendy", 29, "Senegal", club3);
+
+            // Create Players for La Liga Clubs
+            Player player16 = new Player("Karim", "Benzema", 33, "France", club4);
+            Player player17 = new Player("Eden", "Hazard", 30, "Belgium", club4);
+            Player player18 = new Player("Luka", "Modric", 36, "Croatia", club4);
+            Player player19 = new Player("Toni", "Kroos", 31, "Germany", club4);
+            Player player20 = new Player("Thibaut", "Courtois", 29, "Belgium", club4);
+
+            Player player21 = new Player("Lionel", "Messi", 34, "Argentina", club5);
+            Player player22 = new Player("Antoine", "Griezmann", 30, "France", club5);
+            Player player23 = new Player("Gerard", "Pique", 34, "Spain", club5);
+            Player player24 = new Player("Sergio", "Busquets", 32, "Spain", club5);
+            Player player25 = new Player("Marc-Andre", "ter Stegen", 29, "Germany", club5);
+
+            Player player26 = new Player("Luis", "Suarez", 34, "Uruguay", club6);
+            Player player27 = new Player("Joao", "Felix", 21, "Portugal", club6);
+            Player player28 = new Player("Jan", "Oblak", 28, "Slovenia", club6);
+            Player player29 = new Player("Koke", "Resurreccion", 29, "Spain", club6);
+            Player player30 = new Player("Thomas", "Lemar", 25, "France", club6);
+
+            // Create Players for Serie A Clubs
+            Player player31 = new Player("Cristiano", "Ronaldo", 36, "Portugal", club7);
+            Player player32 = new Player("Paulo", "Dybala", 27, "Argentina", club7);
+            Player player33 = new Player("Federico", "Chiesa", 23, "Italy", club7);
+            Player player34 = new Player("Leonardo", "Bonucci", 34, "Italy", club7);
+            Player player35 = new Player("Gianluigi", "Buffon", 43, "Italy", club7);
+
+            Player player36 = new Player("Zlatan", "Ibrahimovic", 39, "Sweden", club8);
+            Player player37 = new Player("Franck", "Kessie", 24, "Ivory Coast", club8);
+            Player player38 = new Player("Theo", "Hernandez", 23, "France", club8);
+            Player player39 = new Player("Gianluigi", "Donnarumma", 22, "Italy", club8);
+            Player player40 = new Player("Alessio", "Romagnoli", 26, "Italy", club8);
+
+            Player player41 = new Player("Romelu", "Lukaku", 28, "Belgium", club9);
+            Player player42 = new Player("Lautaro", "Martinez", 23, "Argentina", club9);
+            Player player43 = new Player("Milan", "Skriniar", 26, "Slovakia", club9);
+            Player player44 = new Player("Samir", "Handanovic", 36, "Slovenia", club9);
+            Player player45 = new Player("Nicolo", "Barella", 24, "Italy", club9);
+
+            // Persist Leagues
+            em.persist(league1);
+            em.persist(league2);
+            em.persist(league3);
+
+            // Persist Clubs
+            em.persist(club1);
+            em.persist(club2);
+            em.persist(club3);
+            em.persist(club4);
+            em.persist(club5);
+            em.persist(club6);
+            em.persist(club7);
+            em.persist(club8);
+            em.persist(club9);
+
+            // Persist Players
+            em.persist(player1);
+            em.persist(player2);
+            em.persist(player3);
+            em.persist(player4);
+            em.persist(player5);
+            em.persist(player6);
+            em.persist(player7);
+            em.persist(player8);
+            em.persist(player9);
+            em.persist(player10);
+            em.persist(player11);
+            em.persist(player12);
+            em.persist(player13);
+            em.persist(player14);
+            em.persist(player15);
+            em.persist(player16);
+            em.persist(player17);
+            em.persist(player18);
+            em.persist(player19);
+            em.persist(player20);
+            em.persist(player21);
+            em.persist(player22);
+            em.persist(player23);
+            em.persist(player24);
+            em.persist(player25);
+            em.persist(player26);
+            em.persist(player27);
+            em.persist(player28);
+            em.persist(player29);
+            em.persist(player30);
+            em.persist(player31);
+            em.persist(player32);
+            em.persist(player33);
+            em.persist(player34);
+            em.persist(player35);
+            em.persist(player36);
+            em.persist(player37);
+            em.persist(player38);
+            em.persist(player39);
+            em.persist(player40);
+            em.persist(player41);
+            em.persist(player42);
+            em.persist(player43);
+            em.persist(player44);
+            em.persist(player45);
+
+            tx.commit();
+
+        } catch (Exception e) {
+            if (tx != null && tx.isActive()) {
+                tx.rollback();
+            }
+            e.printStackTrace();
+        }
+    }
+}

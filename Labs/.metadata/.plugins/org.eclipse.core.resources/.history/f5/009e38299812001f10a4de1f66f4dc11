@@ -1,0 +1,125 @@
+package ch.hevs.businessobject;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
+
+@Entity
+public class Club {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int clubId;
+	@NotNull @Size(min = 1, max = 100)private String name;
+	@NotNull @Size(min = 1, max = 100)private String stadium;
+	@Min(1800)private int foundedYear;
+	
+	// relations
+	/*
+	The orphanRemoval attribute, when set to true, ensures that if 
+	a Player entity is removed from the players list of a Club, 
+	the Player entity will be deleted from the database.
+	 */
+	
+	@OneToMany(mappedBy = "club", orphanRemoval = true)
+	private List<Player> players = new ArrayList<>();
+
+	@ManyToOne
+    @JoinColumn(name = "leagueId")
+    private League league;
+	
+	// Getters and Setters
+	// id 
+	public int getClubId() {
+		return clubId;
+	}
+	public void setClubId(int id) {
+		this.clubId = id;
+	}
+	
+	// name
+	public String getName() {
+	    return name;
+	}
+
+	public void setName(String name) {
+	    this.name = name;
+	}
+	// stadium
+	public String getStadium() {
+	    return stadium;
+	}
+
+	public void setStadium(String stadiumName) {
+	    this.stadium = stadiumName;
+	}
+	
+	// Founded Year
+	public int getFoundedYear() {
+		return foundedYear;
+	}
+
+	public void setFoundedYear(int year) {
+		this.foundedYear = year;
+	}
+	
+	
+	
+	
+	
+	
+	// saldo	
+	public long getSaldo() {
+		return saldo;
+	}
+	public void setSaldo(long saldo) {
+		this.saldo = saldo;
+	}
+	
+	// description
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
+	// owner (from Client)
+	public Player getPlayer() {
+		return player;
+	}
+	public void setPlayer(Player player) {
+		this.player = player;
+	}
+	
+	// methods
+	public void debit(int amount) {
+		long newAmount = getSaldo() - amount;
+		setSaldo(newAmount);
+	}
+	
+	public void credit(int amount) {
+		setSaldo(getSaldo() + amount);
+	}
+
+	// constructors
+	public Club() {
+	}
+	public Club(String number, long saldo, Client owner,
+			String description) {
+		this.number = number;
+		this.saldo = saldo;
+		this.owner = owner;
+		this.description = description;
+	}
+}

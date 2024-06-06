@@ -1,0 +1,86 @@
+package ch.hevs.businessobject;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
+
+@Entity
+public class League{
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int leagueId;
+	@NotNull @Size(min = 1, max = 100)private String name;
+	@NotNull @Size(min = 1, max = 50)private String country;
+	
+	@OneToMany(mappedBy = "league", orphanRemoval = true)
+	private List<Club> clubs = new ArrayList<>();
+	
+	// Getters and Setters
+	// id 
+	public int getLeagueId() {
+		return leagueId;
+	}
+	public void setLeagueId(int id) {
+		this.leagueId = id;
+	}
+	
+	// name
+	public String getLeagueName() {
+	    return name;
+	}
+
+	public void setLeagueName(String name) {
+	    this.name = name;
+	}
+	
+	// country
+	public String getCountry() {
+		return country;
+	}
+	public void setCountry(String country) {
+		this.country = country;
+	}
+	
+	// clubs (from Clubs)
+	public List<Club> getClubs() {
+		return clubs;
+	}
+	public void setClubs(List<Club> clubs) {
+		this.clubs = clubs;
+	}
+	
+	// Helper methods
+	public void addClubs(Club club) {
+		clubs.add(club);
+		club.setLeague(this);
+	}
+	
+	public void removeClub(Club club) {
+        clubs.remove(club);
+        club.setLeague(null);
+    }
+
+	// constructors
+	public League() {
+	}
+	public League(String name, String country) {
+		this.name = name;
+		this.country = country;
+	}
+	
+	@Override
+    public String toString() {
+        return leagueId + "-" + name + "-" + country;
+    }
+}

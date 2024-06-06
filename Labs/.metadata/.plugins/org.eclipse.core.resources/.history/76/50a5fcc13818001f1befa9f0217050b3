@@ -1,0 +1,30 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+<h:head>
+    <title>Players List</title>
+</h:head>
+<h:body>
+    <h:dataTable value="#{footballBean.players}" var="player">
+        <h:column>
+            <f:facet name="header">First Name</f:facet>
+            #{player.firstName}
+        </h:column>
+        <h:column>
+            <f:facet name="header">Last Name</f:facet>
+            #{player.lastName}
+        </h:column>
+        <h:column>
+            <f:facet name="header">Age</f:facet>
+            #{player.age}
+        </h:column>
+        <h:column>
+            <f:facet name="header">Nationality</f:facet>
+            #{player.nationality}
+        </h:column>
+        <h:column>
+            <f:facet name="header">Club</f:facet>
+            #{player.club.name}
+        </h:column>
+    </h:dataTable>
+</h:body>
+</html>

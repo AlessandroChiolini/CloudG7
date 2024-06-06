@@ -1,0 +1,53 @@
+package ch.hevs.bankservice;
+
+import java.util.List;
+
+import ch.hevs.businessobject.Club;
+import ch.hevs.businessobject.Client;
+import jakarta.ejb.Stateful;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
+import jakarta.persistence.PersistenceContextType;
+import jakarta.persistence.Query;
+
+@Stateful
+public class BankBean implements Bank {
+	
+	@PersistenceContext(unitName = "bankPU", type=PersistenceContextType.EXTENDED)
+	private EntityManager em;
+
+	public Club getClub(String accountDescription, String lastnameOwner) {
+		
+		
+		Query query = em.createQuery("FROM Account a WHERE a.description=:description AND a.owner.lastname=:lastname");
+		query.setParameter("description", accountDescription);
+		query.setParameter("lastname", lastnameOwner);
+		
+		Club club = (Club) query.getSingleResult();
+		
+		return club;
+	}
+	
+	public List<Club> getClubListFromClientLastname(String lastname) {
+		return (List<Club>) em.createQuery("SELECT c.accounts FROM Client c where c.lastname=:lastname").setParameter("lastname", lastname).getResultList();
+	}
+
+	public void transfer(Club srcClub, Club destClub, int amount) {
+		
+		System.out.println("ID source account called from transfer(): " + srcClub.getId());
+		System.out.println("ID destination account called from transfer(): " + destClub.getId());
+		
+		em.persist(srcClub);
+		em.persist(destClub);
+		srcClub.debit(amount);
+		destClub.credit(amount); 
+	}
+
+	public List<Client> getClients() {
+		return em.createQuery("FROM Client").getResultList();
+	}
+	
+	public Client getClient(long clientid) {
+		return (Client) em.createQuery("FROM Client c where c.id=:id").setParameter("id", clientid).getSingleResult();
+	}
+}

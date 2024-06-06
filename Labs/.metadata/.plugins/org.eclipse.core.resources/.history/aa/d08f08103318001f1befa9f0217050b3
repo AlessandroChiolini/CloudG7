@@ -1,0 +1,122 @@
+package ch.hevs.footballservice;
+
+import java.util.List;
+
+import ch.hevs.businessobject.Player;
+import ch.hevs.businessobject.Club;
+import ch.hevs.businessobject.League;
+import jakarta.ejb.Stateless;
+import jakarta.ejb.TransactionAttribute;
+import jakarta.ejb.TransactionAttributeType;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
+import jakarta.persistence.PersistenceContextType;
+
+@Stateless
+public class FootballBean implements FootballService {
+
+    @PersistenceContext(unitName = "footballPU", type = PersistenceContextType.TRANSACTION)
+    private EntityManager em;
+
+    // Player related methods
+    @Override
+    @TransactionAttribute(TransactionAttributeType.REQUIRED)
+    public void addPlayer(Player player) {
+        em.persist(player);
+    }
+
+    @Override
+    @TransactionAttribute(TransactionAttributeType.SUPPORTS)
+    public Player getPlayer(Long playerId) {
+        return em.find(Player.class, playerId);
+    }
+
+    @Override
+    @TransactionAttribute(TransactionAttributeType.SUPPORTS)
+    public List<Player> getAllPlayers() {
+        return em.createQuery("SELECT p FROM Player p", Player.class).getResultList();
+    }
+
+    @Override
+    @TransactionAttribute(TransactionAttributeType.REQUIRED)
+    public void updatePlayer(Player player) {
+        em.merge(player);
+    }
+
+    @Override
+    @TransactionAttribute(TransactionAttributeType.REQUIRED)
+    public void deletePlayer(Long playerId) {
+        Player player = getPlayer(playerId);
+        if (player != null) {
+            em.remove(player);
+        }
+    }
+
+    // Club related methods
+    @Override
+    @TransactionAttribute(TransactionAttributeType.REQUIRED)
+    public void addClub(Club club) {
+        em.persist(club);
+    }
+
+    @Override
+    @TransactionAttribute(TransactionAttributeType.SUPPORTS)
+    public Club getClub(Long clubId) {
+        return em.find(Club.class, clubId);
+    }
+
+    @Override
+    @TransactionAttribute(TransactionAttributeType.SUPPORTS)
+    public List<Club> getAllClubs() {
+        return em.createQuery("SELECT c FROM Club c", Club.class).getResultList();
+    }
+
+    @Override
+    @TransactionAttribute(TransactionAttributeType.REQUIRED)
+    public void updateClub(Club club) {
+        em.merge(club);
+    }
+
+    @Override
+    @TransactionAttribute(TransactionAttributeType.REQUIRED)
+    public void deleteClub(Long clubId) {
+        Club club = getClub(clubId);
+        if (club != null) {
+            em.remove(club);
+        }
+    }
+
+    // League related methods
+    @Override
+    @TransactionAttribute(TransactionAttributeType.REQUIRED)
+    public void addLeague(League league) {
+        em.persist(league);
+    }
+
+    @Override
+    @TransactionAttribute(TransactionAttributeType.SUPPORTS)
+    public League getLeague(Long leagueId) {
+        return em.find(League.class, leagueId);
+    }
+
+    @Override
+    @TransactionAttribute(TransactionAttributeType.SUPPORTS)
+    public List<League> getAllLeagues() {
+        return em.createQuery("SELECT l FROM League l", League.class).getResultList();
+    }
+
+    @Override
+    @TransactionAttribute(TransactionAttributeType.REQUIRED)
+    public void updateLeague(League league) {
+        em.merge(league);
+    }
+
+    @Override
+    @TransactionAttribute(TransactionAttributeType.REQUIRED)
+    public void deleteLeague(Long leagueId) {
+        League league = getLeague(leagueId);
+        if (league != null) {
+            em.remove(league);
+        }
+    }
+}

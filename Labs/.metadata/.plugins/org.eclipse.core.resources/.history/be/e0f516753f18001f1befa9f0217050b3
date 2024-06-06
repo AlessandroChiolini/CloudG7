@@ -1,0 +1,64 @@
+package ch.hevs.test;
+
+import org.junit.Test;
+
+import ch.hevs.businessobject.Player;
+import ch.hevs.businessobject.Club;
+import ch.hevs.businessobject.League;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.EntityTransaction;
+import jakarta.persistence.Persistence;
+import junit.framework.TestCase;
+
+public class PopulateDB extends TestCase {
+
+    @Test
+    public void test() {
+        
+        EntityTransaction tx = null;
+        try {
+            
+            EntityManagerFactory emf = Persistence.createEntityManagerFactory("footballPU_unitTest");
+            EntityManager em = emf.createEntityManager();
+            tx = em.getTransaction();
+            tx.begin();
+            
+            // Create Leagues
+            League league1 = new League("Premier League", "England", "2023/2024");
+            League league2 = new League("La Liga", "Spain", "2023/2024");
+
+            // Create Clubs
+            Club club1 = new Club("Manchester United", 1878, "Old Trafford", league1);
+            Club club2 = new Club("Real Madrid", 1902, "Santiago Bernabeu", league2);
+
+            // Create Players
+            Player player1 = new Player("Cristiano", "Ronaldo", 37, "Portugal", club1);
+            Player player2 = new Player("Lionel", "Messi", 34, "Argentina", club2);
+            Player player3 = new Player("Marcus", "Rashford", 24, "England", club1);
+            Player player4 = new Player("Karim", "Benzema", 33, "France", club2);
+
+            // Persist Leagues
+            em.persist(league1);
+            em.persist(league2);
+
+            // Persist Clubs
+            em.persist(club1);
+            em.persist(club2);
+
+            // Persist Players
+            em.persist(player1);
+            em.persist(player2);
+            em.persist(player3);
+            em.persist(player4);
+
+            tx.commit();
+
+        } catch (Exception e) {
+            if (tx != null && tx.isActive()) {
+                tx.rollback();
+            }
+            e.printStackTrace();
+        }
+    }
+}

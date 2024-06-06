@@ -1,0 +1,1323 @@
+2023-11-06 15:18:27,223 INFO  [org.jboss.as.server] (management-handler-thread - 5) WFLYSRV0272: Suspending server
+2023-11-06 15:18:27,260 INFO  [org.jboss.as.ejb3] (management-handler-thread - 5) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-11-06 15:18:27,260 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2023-11-06 15:18:27,371 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2023-11-06 15:18:27,393 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2023-11-06 15:18:27,393 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:/labsDS]
+2023-11-06 15:18:27,401 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTPS listener https suspending
+2023-11-06 15:18:27,424 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2023-11-06 15:18:27,423 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 102) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@24c5c8d2)
+2023-11-06 15:18:27,417 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2023-11-06 15:18:27,446 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTP listener default suspending
+2023-11-06 15:18:27,458 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0019: Host default-host stopping
+2023-11-06 15:18:27,457 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 102) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@20fa5892)
+2023-11-06 15:18:27,459 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 102) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@65f8c2e9)
+2023-11-06 15:18:27,459 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 102) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@5e5e6097)
+2023-11-06 15:18:27,460 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 102) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@5457a0d6)
+2023-11-06 15:18:27,460 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 102) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@261b5c06)
+2023-11-06 15:18:27,460 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 102) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@5d73da6)
+2023-11-06 15:18:27,460 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 102) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@28a0bf53)
+2023-11-06 15:18:27,460 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 102) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@4118fb81)
+2023-11-06 15:18:27,460 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 102) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@3d1f74c8)
+2023-11-06 15:18:27,460 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 102) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@19944c0)
+2023-11-06 15:18:27,460 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 102) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@2cee2987)
+2023-11-06 15:18:27,460 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2023-11-06 15:18:27,484 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0004: Undertow 2.3.0.Final stopping
+2023-11-06 15:18:27,531 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = hsqldb
+2023-11-06 15:18:27,555 ERROR [io.undertow.request.io] (default I/O-4) UT005090: Unexpected failure: java.lang.IllegalStateException: UT000131: Buffer pool is closed
+	at io.undertow.core@2.3.0.Final//io.undertow.server.DefaultByteBufferPool.allocate(DefaultByteBufferPool.java:117)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.protocol.http.HttpResponseConduit.processWrite(HttpResponseConduit.java:166)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.protocol.http.HttpResponseConduit.flush(HttpResponseConduit.java:746)
+	at io.undertow.core@2.3.0.Final//io.undertow.conduits.AbstractFixedLengthStreamSinkConduit.flush(AbstractFixedLengthStreamSinkConduit.java:229)
+	at org.jboss.xnio@3.8.8.Final//org.xnio.conduits.ConduitStreamSinkChannel.flush(ConduitStreamSinkChannel.java:162)
+	at io.undertow.core@2.3.0.Final//io.undertow.channels.DetachableStreamSinkChannel.flush(DetachableStreamSinkChannel.java:119)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.HttpServerExchange.closeAndFlushResponse(HttpServerExchange.java:1811)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.HttpServerExchange.endExchange(HttpServerExchange.java:1781)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.Connectors.executeRootHandler(Connectors.java:416)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.protocol.http.HttpReadListener.handleEventWithNoRunningRequest(HttpReadListener.java:256)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:136)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.protocol.http.HttpOpenListener.handleEvent(HttpOpenListener.java:162)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.protocol.http.HttpOpenListener.handleEvent(HttpOpenListener.java:100)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.protocol.http.HttpOpenListener.handleEvent(HttpOpenListener.java:57)
+	at org.jboss.xnio@3.8.8.Final//org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.jboss.xnio@3.8.8.Final//org.xnio.ChannelListeners$10.handleEvent(ChannelListeners.java:291)
+	at org.jboss.xnio@3.8.8.Final//org.xnio.ChannelListeners$10.handleEvent(ChannelListeners.java:286)
+	at org.jboss.xnio@3.8.8.Final//org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.jboss.xnio.nio@3.8.8.Final//org.xnio.nio.QueuedNioTcpServer2.acceptTask(QueuedNioTcpServer2.java:178)
+	at org.jboss.xnio.nio@3.8.8.Final//org.xnio.nio.WorkerThread.safeRun(WorkerThread.java:612)
+	at org.jboss.xnio.nio@3.8.8.Final//org.xnio.nio.WorkerThread.run(WorkerThread.java:479)
+
+2023-11-06 15:18:27,570 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Full 27.0.0.Final (WildFly Core 19.0.0.Final) stopped in 293ms
+2023-11-06 15:18:28,471 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.3.Final
+2023-11-06 15:18:29,522 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-11-06 15:18:29,529 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-11-06 15:18:29,662 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 27.0.0.Final (WildFly Core 19.0.0.Final) starting
+2023-11-06 15:18:29,668 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	gopherProxySet = false
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/jboss-modules.jar
+	java.class.version = 55.0
+	java.home = /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
+	java.io.tmpdir = /var/folders/r1/z4c2jnjj3jz66n0v79snkc8m0000gn/T/
+	java.library.path = /Users/Adrien/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 11.0.14.1+1-LTS
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Azul Systems, Inc.
+	java.vendor.url = http://www.azul.com/
+	java.vendor.url.bug = http://www.azul.com/support/
+	java.vendor.version = Zulu11.54+25-CA
+	java.version = 11.0.14.1
+	java.version.date = 2022-02-08
+	java.vm.compressedOopsMode = Zero based
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = Azul Systems, Inc.
+	java.vm.version = 11.0.14.1+1-LTS
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final
+	jboss.host.name = adriens-macbook-pro-ii-2
+	jboss.modules.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = adriens-macbook-pro-ii-2
+	jboss.qualified.host.name = adriens-macbook-pro-ii-2.local
+	jboss.server.base.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone
+	jboss.server.config.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/configuration
+	jboss.server.data.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data
+	jboss.server.deploy.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data/content
+	jboss.server.log.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/log
+	jboss.server.name = adriens-macbook-pro-ii-2
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/tmp
+	jdk.debug = release
+	jdk.vendor.version = Zulu11.54+25-CA
+	line.separator = 
+
+	logging.configuration = file:/Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/configuration/logging.properties
+	module.path = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/modules
+	org.jboss.boot.log.file = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 14.0
+	path.separator = :
+	program.name = JBossTools: WildFly 27+
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = org.jboss.modules.Main -mp /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=/Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/bin
+	user.home = /Users/Adrien
+	user.language = en
+	user.name = Adrien
+	user.timezone = Europe/Zurich
+2023-11-06 15:18:29,674 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly 27+ -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=/Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final -Dorg.jboss.logmanager.nocolor=true --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2023-11-06 15:18:31,227 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.0.0.Final
+2023-11-06 15:18:31,769 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 31) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-11-06 15:18:31,781 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 31) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-11-06 15:18:32,400 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 13) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-11-06 15:18:32,592 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-11-06 15:18:32,618 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.8.8.Final
+2023-11-06 15:18:32,629 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.8.8.Final
+2023-11-06 15:18:32,688 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-11-06 15:18:32,707 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 54) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-11-06 15:18:32,715 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 58) WFLYRS0016: RESTEasy version 6.2.1.Final
+2023-11-06 15:18:32,725 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 76) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-11-06 15:18:32,771 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 66) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-11-06 15:18:32,794 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 67) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-11-06 15:18:32,800 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 78) WFLYWS0002: Activating WebServices Extension
+2023-11-06 15:18:32,800 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 69) WFLYNAM0001: Activating Naming Subsystem
+2023-11-06 15:18:32,804 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.26.Final
+2023-11-06 15:18:32,808 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 68) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-11-06 15:18:32,812 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 55) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-11-06 15:18:32,813 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-11-06 15:18:32,877 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 65) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-11-06 15:18:32,869 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.9.Final)
+2023-11-06 15:18:32,897 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2023-11-06 15:18:32,908 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-11-06 15:18:32,939 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 57) WFLYIO001: Worker 'default' has auto-configured to 20 IO threads with 160 max task threads based on your 10 available processors
+2023-11-06 15:18:33,136 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 2.3.0.Final starting
+2023-11-06 15:18:33,148 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2023-11-06 15:18:33,191 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-11-06 15:18:33,265 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.hsqldb.jdbcDriver (version 1.8)
+2023-11-06 15:18:33,283 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = hsqldb
+2023-11-06 15:18:33,365 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 160 (per class), which is derived from thread worker pool sizing.
+2023-11-06 15:18:33,367 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 40 (per class), which is derived from the number of CPUs on this host.
+2023-11-06 15:18:33,523 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0014: Creating file handler for path '/Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-11-06 15:18:33,565 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2023-11-06 15:18:33,566 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-3) WFLYELY00023: KeyStore file '/Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/configuration/application.keystore' does not exist. Used blank.
+2023-11-06 15:18:33,589 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) Queuing requests.
+2023-11-06 15:18:33,602 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2023-11-06 15:18:33,603 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-6) WFLYELY01084: KeyStore /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-11-06 15:18:33,814 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-11-06 15:18:34,108 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-11-06 15:18:34,135 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-11-06 15:18:34,206 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-11-06 15:18:34,231 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-11-06 15:18:34,231 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:/labsDS]
+2023-11-06 15:18:34,241 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/deployments
+2023-11-06 15:18:34,299 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 6.1.0.Final (Apache CXF 3.5.2.jbossorg-3) 
+2023-11-06 15:18:34,439 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-11-06 15:18:34,442 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 27.0.0.Final (WildFly Core 19.0.0.Final) started in 6514ms - Started 298 of 571 services (358 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-11-06 15:18:34,445 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-11-06 15:18:34,446 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-11-06 15:23:32,164 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data/content/bf/1f6ac9dea4ded21ecff2fee581031d09525426/content
+2023-11-06 15:23:32,234 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:23:32,951 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war
+2023-11-06 15:23:33,108 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 8.0.0.Final
+2023-11-06 15:23:33,390 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-1) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-11-06 15:23:33,580 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-1) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-11-06 15:23:33,582 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-1) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=Adriens-MacBook-Pro-II-2.local, jaeger.version=Java-1.6.0, ip=127.0.0.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-11-06 15:23:33,732 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900: 5.1.0 (Final)
+2023-11-06 15:23:35,305 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 84) Initializing Mojarra 4.0.0.SP01 for context '/TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT'
+2023-11-06 15:23:36,002 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0021: Registered web context: '/TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT' for server 'default-server'
+2023-11-06 15:23:36,131 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name : "TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:26:08,308 INFO  [stdout] (default task-1) AccountDAO::Account modified:5
+2023-11-06 15:26:08,323 INFO  [stdout] (default task-1) AccountDAO::Account modified:1
+2023-11-06 15:26:08,323 INFO  [stdout] (default task-1)  [Simulation] - An exception has just been generated by the database after the update of the account1
+2023-11-06 15:26:08,323 INFO  [stdout] (default task-1) You have 10 seconds to verify in the database if the source account has been debited
+2023-11-06 15:26:18,332 INFO  [stdout] (default task-1) Verify that the modification you just have seen (thanks to READ UNCOMITED) has indeed rollbacked !
+2023-11-06 15:26:18,366 INFO  [stdout] (default task-1) Failure of transfer
+2023-11-06 15:27:29,778 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0022: Unregistered web context: '/TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT' from server 'default-server'
+2023-11-06 15:27:29,900 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war (runtime-name: TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war) in 143ms
+2023-11-06 15:27:29,964 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data/content/bf/1f6ac9dea4ded21ecff2fee581031d09525426/content
+2023-11-06 15:27:29,965 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:29:44,601 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data/content/51/83b8e9721327ac782b6b5964b6ab009363172d/content
+2023-11-06 15:29:44,622 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:29:44,927 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT.war
+2023-11-06 15:29:45,036 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-2) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-11-06 15:29:45,260 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-2) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-11-06 15:29:45,262 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-2) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=Adriens-MacBook-Pro-II-2.local, jaeger.version=Java-1.6.0, ip=127.0.0.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-11-06 15:29:45,971 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 91) Initializing Mojarra 4.0.0.SP01 for context '/TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT'
+2023-11-06 15:29:46,063 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 91) WFLYUT0021: Registered web context: '/TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT' for server 'default-server'
+2023-11-06 15:29:46,107 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT.war" (runtime-name : "TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:30:04,507 INFO  [stdout] (default task-1) Modified Account
+2023-11-06 15:30:04,533 INFO  [stdout] (default task-1) Modified Account
+2023-11-06 15:30:31,356 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 92) WFLYUT0022: Unregistered web context: '/TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT' from server 'default-server'
+2023-11-06 15:30:31,451 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT.war (runtime-name: TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT.war) in 105ms
+2023-11-06 15:30:31,491 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data/content/51/83b8e9721327ac782b6b5964b6ab009363172d/content
+2023-11-06 15:30:31,491 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:30:59,429 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data/content/e1/590bcd0a169a326d966e04d7a2cf1ffdd73bde/content
+2023-11-06 15:30:59,443 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:30:59,663 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war
+2023-11-06 15:30:59,745 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-7) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-11-06 15:30:59,749 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-7) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-11-06 15:30:59,750 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-7) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=Adriens-MacBook-Pro-II-2.local, jaeger.version=Java-1.6.0, ip=127.0.0.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-11-06 15:31:00,319 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 100) Initializing Mojarra 4.0.0.SP01 for context '/TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT'
+2023-11-06 15:31:00,387 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 100) WFLYUT0021: Registered web context: '/TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT' for server 'default-server'
+2023-11-06 15:31:00,417 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name : "TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:31:18,828 INFO  [stdout] (default task-1) AccountDAO::Account modified:5
+2023-11-06 15:31:18,831 INFO  [stdout] (default task-1) AccountDAO::Account modified:1
+2023-11-06 15:31:18,832 INFO  [stdout] (default task-1)  [Simulation] - An exception has just been generated by the database after the update of the account1
+2023-11-06 15:31:18,832 INFO  [stdout] (default task-1) You have 10 seconds to verify in the database if the source account has been debited
+2023-11-06 15:31:28,839 INFO  [stdout] (default task-1) Verify that the modification you just have seen (thanks to READ UNCOMITED) has indeed rollbacked !
+2023-11-06 15:31:28,850 INFO  [stdout] (default task-1) Failure of transfer
+2023-11-06 15:33:15,927 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 100) WFLYUT0022: Unregistered web context: '/TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT' from server 'default-server'
+2023-11-06 15:33:16,020 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war (runtime-name: TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war) in 101ms
+2023-11-06 15:33:16,039 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data/content/e1/590bcd0a169a326d966e04d7a2cf1ffdd73bde/content
+2023-11-06 15:33:16,039 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:33:36,284 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data/content/bc/0a227168289f12da57c480f7d53b4c4549882b/content
+2023-11-06 15:33:36,300 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:33:36,448 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 103) WFLYUT0021: Registered web context: '/TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT' for server 'default-server'
+2023-11-06 15:33:36,468 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war" (runtime-name : "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:33:49,553 INFO  [stdout] (default task-1) Modified Account
+2023-11-06 15:33:49,587 INFO  [stdout] (default task-1) Modified Account
+2023-11-06 15:38:25,387 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data/content/3c/7c48da5de30ee5417d931cf5ea615ba7a2d8ee/content
+2023-11-06 15:38:25,393 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:38:25,510 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT.war
+2023-11-06 15:38:25,593 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-3) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-11-06 15:38:25,807 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-3) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-11-06 15:38:25,809 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-3) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=Adriens-MacBook-Pro-II-2.local, jaeger.version=Java-1.6.0, ip=127.0.0.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-11-06 15:38:26,323 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 103) Initializing Mojarra 4.0.0.SP01 for context '/TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT'
+2023-11-06 15:38:26,373 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 103) WFLYUT0021: Registered web context: '/TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT' for server 'default-server'
+2023-11-06 15:38:26,396 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT.war" (runtime-name : "TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:38:38,626 INFO  [stdout] (default task-1) Modified Account
+2023-11-06 15:38:38,652 INFO  [stdout] (default task-1) Modified Account
+2023-11-06 15:39:00,788 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 103) WFLYUT0022: Unregistered web context: '/TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT' from server 'default-server'
+2023-11-06 15:39:00,839 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT.war (runtime-name: TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT.war) in 58ms
+2023-11-06 15:39:00,866 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data/content/3c/7c48da5de30ee5417d931cf5ea615ba7a2d8ee/content
+2023-11-06 15:39:00,869 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP03-WEB-JSF-FACELETs-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:40:17,307 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data/content/92/88fd3345b313f70f14096db0fc0bb084553e23/content
+2023-11-06 15:40:17,316 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:40:17,441 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war
+2023-11-06 15:40:17,523 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-4) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-11-06 15:40:17,526 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-4) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-11-06 15:40:17,526 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-4) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=Adriens-MacBook-Pro-II-2.local, jaeger.version=Java-1.6.0, ip=127.0.0.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-11-06 15:40:17,952 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 117) Initializing Mojarra 4.0.0.SP01 for context '/TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT'
+2023-11-06 15:40:18,008 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 117) WFLYUT0021: Registered web context: '/TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT' for server 'default-server'
+2023-11-06 15:40:18,051 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name : "TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:40:34,523 INFO  [stdout] (default task-1) AccountDAO::Account modified:5
+2023-11-06 15:40:34,525 INFO  [stdout] (default task-1) AccountDAO::Account modified:1
+2023-11-06 15:40:34,525 INFO  [stdout] (default task-1)  [Simulation] - An exception has just been generated by the database after the update of the account1
+2023-11-06 15:40:34,525 INFO  [stdout] (default task-1) You have 10 seconds to verify in the database if the source account has been debited
+2023-11-06 15:40:44,531 INFO  [stdout] (default task-1) Verify that the modification you just have seen (thanks to READ UNCOMITED) has indeed rollbacked !
+2023-11-06 15:40:44,550 INFO  [stdout] (default task-1) Failure of transfer
+2023-11-06 15:41:01,576 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 119) WFLYUT0022: Unregistered web context: '/TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT' from server 'default-server'
+2023-11-06 15:41:01,632 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war (runtime-name: TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war) in 60ms
+2023-11-06 15:41:01,645 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data/content/92/88fd3345b313f70f14096db0fc0bb084553e23/content
+2023-11-06 15:41:01,646 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP04-WEB-JTA-POJO-DAO-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:41:18,441 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0272: Suspending server
+2023-11-06 15:41:18,450 INFO  [org.jboss.as.ejb3] (management-handler-thread - 1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-11-06 15:41:18,453 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2023-11-06 15:41:18,504 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:/labsDS]
+2023-11-06 15:41:18,514 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2023-11-06 15:41:18,513 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 122) WFLYUT0022: Unregistered web context: '/TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT' from server 'default-server'
+2023-11-06 15:41:18,529 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 125) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@4134f945)
+2023-11-06 15:41:18,538 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 125) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@450b75bb)
+2023-11-06 15:41:18,544 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 125) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@9f37e)
+2023-11-06 15:41:18,545 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 125) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@575bb0f2)
+2023-11-06 15:41:18,545 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 125) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@3143958d)
+2023-11-06 15:41:18,545 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 125) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@2ffb88b3)
+2023-11-06 15:41:18,545 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 125) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@60260c31)
+2023-11-06 15:41:18,545 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 125) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@6a70ece7)
+2023-11-06 15:41:18,545 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 125) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@4732f3d9)
+2023-11-06 15:41:18,545 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 125) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@34ff459c)
+2023-11-06 15:41:18,545 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 125) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@646890b6)
+2023-11-06 15:41:18,545 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 125) IJ000615: Destroying active connection in pool: labsDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@9925f08)
+2023-11-06 15:41:18,563 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+2023-11-06 15:41:18,582 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2023-11-06 15:41:18,601 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2023-11-06 15:41:18,657 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTP listener default suspending
+2023-11-06 15:41:18,659 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTPS listener https suspending
+2023-11-06 15:41:18,670 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2023-11-06 15:41:18,680 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2023-11-06 15:41:18,692 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war (runtime-name: TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war) in 231ms
+2023-11-06 15:41:18,734 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0004: Undertow 2.3.0.Final stopping
+2023-11-06 15:41:18,734 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = hsqldb
+2023-11-06 15:41:18,800 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Full 27.0.0.Final (WildFly Core 19.0.0.Final) stopped in 340ms
+2023-11-06 15:41:19,630 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.3.Final
+2023-11-06 15:41:20,945 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-11-06 15:41:20,954 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-11-06 15:41:21,107 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 27.0.0.Final (WildFly Core 19.0.0.Final) starting
+2023-11-06 15:41:21,113 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	gopherProxySet = false
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/jboss-modules.jar
+	java.class.version = 55.0
+	java.home = /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
+	java.io.tmpdir = /var/folders/r1/z4c2jnjj3jz66n0v79snkc8m0000gn/T/
+	java.library.path = /Users/Adrien/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 11.0.14.1+1-LTS
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Azul Systems, Inc.
+	java.vendor.url = http://www.azul.com/
+	java.vendor.url.bug = http://www.azul.com/support/
+	java.vendor.version = Zulu11.54+25-CA
+	java.version = 11.0.14.1
+	java.version.date = 2022-02-08
+	java.vm.compressedOopsMode = Zero based
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = Azul Systems, Inc.
+	java.vm.version = 11.0.14.1+1-LTS
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final
+	jboss.host.name = adriens-macbook-pro-ii-2
+	jboss.modules.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = adriens-macbook-pro-ii-2
+	jboss.qualified.host.name = adriens-macbook-pro-ii-2.local
+	jboss.server.base.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone
+	jboss.server.config.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/configuration
+	jboss.server.data.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data
+	jboss.server.deploy.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data/content
+	jboss.server.log.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/log
+	jboss.server.name = adriens-macbook-pro-ii-2
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/tmp
+	jdk.debug = release
+	jdk.vendor.version = Zulu11.54+25-CA
+	line.separator = 
+
+	logging.configuration = file:/Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/configuration/logging.properties
+	module.path = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/modules
+	org.jboss.boot.log.file = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 14.0
+	path.separator = :
+	program.name = JBossTools: WildFly 27+
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = org.jboss.modules.Main -mp /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=/Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/bin
+	user.home = /Users/Adrien
+	user.language = en
+	user.name = Adrien
+	user.timezone = Europe/Zurich
+2023-11-06 15:41:21,120 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=JBossTools: WildFly 27+ -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=/Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final -Dorg.jboss.logmanager.nocolor=true --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2023-11-06 15:41:22,661 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.0.0.Final
+2023-11-06 15:41:23,361 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 31) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-11-06 15:41:23,373 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 31) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-11-06 15:41:23,931 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 29) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-11-06 15:41:24,116 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-11-06 15:41:24,139 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.8.8.Final
+2023-11-06 15:41:24,149 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.8.8.Final
+2023-11-06 15:41:24,228 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 66) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-11-06 15:41:24,232 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-11-06 15:41:24,288 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 69) WFLYNAM0001: Activating Naming Subsystem
+2023-11-06 15:41:24,301 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 76) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-11-06 15:41:24,255 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 67) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-11-06 15:41:24,289 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 58) WFLYRS0016: RESTEasy version 6.2.1.Final
+2023-11-06 15:41:24,288 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 54) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-11-06 15:41:24,282 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.26.Final
+2023-11-06 15:41:24,354 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 78) WFLYWS0002: Activating WebServices Extension
+2023-11-06 15:41:24,358 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-11-06 15:41:24,367 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 68) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-11-06 15:41:24,440 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 55) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-11-06 15:41:24,455 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.9.Final)
+2023-11-06 15:41:24,460 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 65) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-11-06 15:41:24,429 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 57) WFLYIO001: Worker 'default' has auto-configured to 20 IO threads with 160 max task threads based on your 10 available processors
+2023-11-06 15:41:24,511 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2023-11-06 15:41:24,534 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-11-06 15:41:24,725 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 2.3.0.Final starting
+2023-11-06 15:41:24,775 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2023-11-06 15:41:24,791 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-11-06 15:41:24,890 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.hsqldb.jdbcDriver (version 1.8)
+2023-11-06 15:41:24,891 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 40 (per class), which is derived from the number of CPUs on this host.
+2023-11-06 15:41:24,891 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 160 (per class), which is derived from thread worker pool sizing.
+2023-11-06 15:41:24,915 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = hsqldb
+2023-11-06 15:41:25,265 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0014: Creating file handler for path '/Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-11-06 15:41:25,305 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2023-11-06 15:41:25,332 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) Queuing requests.
+2023-11-06 15:41:25,339 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2023-11-06 15:41:25,402 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-2) WFLYELY00023: KeyStore file '/Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/configuration/application.keystore' does not exist. Used blank.
+2023-11-06 15:41:25,432 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-4) WFLYELY01084: KeyStore /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-11-06 15:41:25,467 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-11-06 15:41:25,862 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-11-06 15:41:26,012 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-11-06 15:41:26,015 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:/labsDS]
+2023-11-06 15:41:26,007 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:41:26,047 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-11-06 15:41:26,055 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-11-06 15:41:26,077 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/deployments
+2023-11-06 15:41:26,207 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 6.1.0.Final (Apache CXF 3.5.2.jbossorg-3) 
+2023-11-06 15:41:27,070 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 81) WFLYUT0021: Registered web context: '/TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT' for server 'default-server'
+2023-11-06 15:41:27,181 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war" (runtime-name : "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:41:27,251 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-11-06 15:41:27,255 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 27.0.0.Final (WildFly Core 19.0.0.Final) started in 8151ms - Started 390 of 642 services (362 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-11-06 15:41:27,258 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-11-06 15:41:27,258 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-11-06 15:43:55,770 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data/content/f4/f9ff8ce7dea16a38a6a3469a013144f513fe79/content
+2023-11-06 15:43:55,801 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:43:56,015 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war
+2023-11-06 15:43:56,133 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 8.0.0.Final
+2023-11-06 15:43:56,266 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'BankBean' in deployment unit 'deployment "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war"' are as follows:
+
+	java:global/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT/BankBean!ch.hevs.bankservice.Bank
+	java:app/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT/BankBean!ch.hevs.bankservice.Bank
+	java:module/BankBean!ch.hevs.bankservice.Bank
+	java:global/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT/BankBean
+	java:app/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT/BankBean
+	java:module/BankBean
+
+2023-11-06 15:43:56,332 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-7) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-11-06 15:43:56,468 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-7) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-11-06 15:43:56,470 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-7) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=Adriens-MacBook-Pro-II-2.local, jaeger.version=Java-1.6.0, ip=127.0.0.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-11-06 15:43:56,618 INFO  [org.jboss.weld.Version] (MSC service thread 1-8) WELD-000900: 5.1.0 (Final)
+2023-11-06 15:43:57,749 WARN  [org.jboss.weld.Validator] (MSC service thread 1-2) WELD-001471: Interceptor method init defined on class ch.hevs.managedbeans.TransferBean is not defined according to the specification. It should not throw javax.naming.NamingException, which is a checked exception.
+	at ch.hevs.managedbeans.TransferBean.init(TransferBean.java:0)
+  StackTrace
+2023-11-06 15:43:57,934 WARN  [org.jboss.weld.Validator] (MSC service thread 1-2) WELD-001471: Interceptor method init defined on class ch.hevs.managedbeans.TransferBean is not defined according to the specification. It should not throw javax.naming.NamingException, which is a checked exception.
+	at ch.hevs.managedbeans.TransferBean.init(TransferBean.java:0)
+  StackTrace
+2023-11-06 15:43:58,278 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 86) Initializing Mojarra 4.0.0.SP01 for context '/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT'
+2023-11-06 15:43:58,805 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 86) WFLYUT0021: Registered web context: '/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT' for server 'default-server'
+2023-11-06 15:43:58,932 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name : "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:44:44,870 INFO  [stdout] (default task-1)  [Simulation] - An exception has just been generated by the database after the update of the account 1
+2023-11-06 15:44:44,872 INFO  [stdout] (default task-1) You have 10 seconds to verify in the database if the source account has been debited
+2023-11-06 15:44:54,881 INFO  [stdout] (default task-1) Verify the modification that you just have seen thanks to READ UNCOMITED has indeed rollbacked !
+2023-11-06 15:44:54,921 ERROR [org.jboss.as.ejb3.invocation] (default task-1) WFLYEJB0034: Jakarta Enterprise Beans Invocation failed on component BankBean for method public abstract void ch.hevs.bankservice.Bank.transfer(ch.hevs.businessobject.Account,ch.hevs.businessobject.Account,int) throws ch.hevs.exception.BankException: jakarta.ejb.EJBException: ch.hevs.exception.BankException: simulation of a technical problem
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:268)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:390)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:160)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:72)
+	at org.jboss.as.weld.common@27.0.0.Final//org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:89)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.security.IdentityOutflowInterceptor.processInvocation(IdentityOutflowInterceptor.java:73)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.security.SecurityDomainInterceptor.processInvocation(SecurityDomainInterceptor.java:44)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.elytron-base@2.0.0.Final//org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:633)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:191)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:81)
+	at deployment.TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war//ch.hevs.bankservice.Bank$$$view2.transfer(Unknown Source)
+	at deployment.TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war//ch.hevs.managedbeans.TransferBean.performTransfer(TransferBean.java:102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.glassfish.expressly@5.0.0//org.glassfish.expressly.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:186)
+	at org.glassfish.expressly@5.0.0//org.glassfish.expressly.parser.AstValue.invoke(AstValue.java:253)
+	at org.glassfish.expressly@5.0.0//org.glassfish.expressly.MethodExpressionImpl.invoke(MethodExpressionImpl.java:248)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.module.web.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.module.web.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at com.sun.jsf-impl@4.0.0.SP01//com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:70)
+	at com.sun.jsf-impl@4.0.0.SP01//com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:74)
+	at com.sun.jsf-impl@4.0.0.SP01//com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:62)
+	at jakarta.faces.api//jakarta.faces.component.UICommand.broadcast(UICommand.java:205)
+	at jakarta.faces.api//jakarta.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:858)
+	at jakarta.faces.api//jakarta.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1332)
+	at com.sun.jsf-impl@4.0.0.SP01//com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:56)
+	at com.sun.jsf-impl@4.0.0.SP01//com.sun.faces.lifecycle.Phase.doPhase(Phase.java:72)
+	at com.sun.jsf-impl@4.0.0.SP01//com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:159)
+	at jakarta.faces.api//jakarta.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:691)
+	at jakarta.faces.api//jakarta.faces.webapp.FacesServlet.service(FacesServlet.java:449)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.smallrye.opentracing-contrib//io.smallrye.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:69)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.security.elytron-web.undertow-server@3.0.0.Final//org.wildfly.elytron.web.undertow.server.ElytronRunAsHandler.lambda$handleRequest$1(ElytronRunAsHandler.java:68)
+	at org.wildfly.security.elytron-base@2.0.0.Final//org.wildfly.security.auth.server.FlexibleIdentityAssociation.runAsFunctionEx(FlexibleIdentityAssociation.java:103)
+	at org.wildfly.security.elytron-base@2.0.0.Final//org.wildfly.security.auth.server.Scoped.runAsFunctionEx(Scoped.java:161)
+	at org.wildfly.security.elytron-base@2.0.0.Final//org.wildfly.security.auth.server.Scoped.runAs(Scoped.java:73)
+	at org.wildfly.security.elytron-web.undertow-server@3.0.0.Final//org.wildfly.elytron.web.undertow.server.ElytronRunAsHandler.handleRequest(ElytronRunAsHandler.java:67)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.core@2.3.0.Final//io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.core@2.3.0.Final//io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at org.wildfly.security.elytron-web.undertow-server-servlet@3.0.0.Final//org.wildfly.elytron.web.undertow.server.servlet.CleanUpHandler.handleRequest(CleanUpHandler.java:38)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@27.0.0.Final//org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@27.0.0.Final//org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:275)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:134)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:131)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@27.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1435)
+	at org.wildfly.extension.undertow@27.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1435)
+	at org.wildfly.extension.undertow@27.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1435)
+	at org.wildfly.extension.undertow@27.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1435)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:255)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:100)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.Connectors.executeRootHandler(Connectors.java:391)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:859)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at org.jboss.xnio@3.8.8.Final//org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1282)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: ch.hevs.exception.BankException: simulation of a technical problem
+	at deployment.TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war//ch.hevs.dao.AccountDAO.saveOrUpdate2(AccountDAO.java:40)
+	at deployment.TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war//ch.hevs.bankservice.BankBean.transfer(BankBean.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.common@27.0.0.Final//org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.delegateInterception(Jsr299BindingsInterceptor.java:79)
+	at org.jboss.as.weld.common@27.0.0.Final//org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:89)
+	at org.jboss.as.weld.common@27.0.0.Final//org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:102)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa@27.0.0.Final//org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:56)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:254)
+	... 102 more
+
+2023-11-06 15:44:54,929 INFO  [stdout] (default task-1) ch.hevs.exception.BankException: simulation of a technical problem
+2023-11-06 15:45:27,366 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data/content/e2/e03b4d8406cae0f353d4e3ccb6d27d1e212351/content
+2023-11-06 15:45:27,402 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 87) WFLYUT0022: Unregistered web context: '/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT' from server 'default-server'
+2023-11-06 15:45:27,526 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war (runtime-name: TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war) in 145ms
+2023-11-06 15:45:27,541 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:45:27,739 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war
+2023-11-06 15:45:27,813 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'BankBean' in deployment unit 'deployment "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war"' are as follows:
+
+	java:global/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT/BankBean!ch.hevs.bankservice.Bank
+	java:app/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT/BankBean!ch.hevs.bankservice.Bank
+	java:module/BankBean!ch.hevs.bankservice.Bank
+	java:global/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT/BankBean
+	java:app/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT/BankBean
+	java:module/BankBean
+
+2023-11-06 15:45:27,863 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-6) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-11-06 15:45:27,867 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-6) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-11-06 15:45:27,868 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-6) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=Adriens-MacBook-Pro-II-2.local, jaeger.version=Java-1.6.0, ip=127.0.0.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-11-06 15:45:28,355 WARN  [org.jboss.weld.Validator] (MSC service thread 1-8) WELD-001471: Interceptor method init defined on class ch.hevs.managedbeans.TransferBean is not defined according to the specification. It should not throw javax.naming.NamingException, which is a checked exception.
+	at ch.hevs.managedbeans.TransferBean.init(TransferBean.java:0)
+  StackTrace
+2023-11-06 15:45:28,489 WARN  [org.jboss.weld.Validator] (MSC service thread 1-7) WELD-001471: Interceptor method init defined on class ch.hevs.managedbeans.TransferBean is not defined according to the specification. It should not throw javax.naming.NamingException, which is a checked exception.
+	at ch.hevs.managedbeans.TransferBean.init(TransferBean.java:0)
+  StackTrace
+2023-11-06 15:45:28,606 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 89) Initializing Mojarra 4.0.0.SP01 for context '/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT'
+2023-11-06 15:45:28,677 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 89) WFLYUT0021: Registered web context: '/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT' for server 'default-server'
+2023-11-06 15:45:28,725 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0016: Replaced deployment "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war" with deployment "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war"
+2023-11-06 15:45:28,732 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data/content/f4/f9ff8ce7dea16a38a6a3469a013144f513fe79/content
+2023-11-06 15:45:35,301 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 89) WFLYUT0022: Unregistered web context: '/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT' from server 'default-server'
+2023-11-06 15:45:35,370 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war (runtime-name: TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war) in 76ms
+2023-11-06 15:45:35,392 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data/content/e2/e03b4d8406cae0f353d4e3ccb6d27d1e212351/content
+2023-11-06 15:45:35,392 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:48:07,866 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data/content/d6/c098361ba8f7fa81ece19bdbdbd8b6c2896b2b/content
+2023-11-06 15:48:07,877 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "TP06-WEB-STATEFUL-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP06-WEB-STATEFUL-DAO-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:48:07,996 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment TP06-WEB-STATEFUL-DAO-E-0.0.1-SNAPSHOT.war
+2023-11-06 15:48:08,061 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'BankBean' in deployment unit 'deployment "TP06-WEB-STATEFUL-DAO-E-0.0.1-SNAPSHOT.war"' are as follows:
+
+	java:global/TP06-WEB-STATEFUL-DAO-E-0.0.1-SNAPSHOT/BankBean!ch.hevs.bankservice.Bank
+	java:app/TP06-WEB-STATEFUL-DAO-E-0.0.1-SNAPSHOT/BankBean!ch.hevs.bankservice.Bank
+	java:module/BankBean!ch.hevs.bankservice.Bank
+	java:global/TP06-WEB-STATEFUL-DAO-E-0.0.1-SNAPSHOT/BankBean
+	java:app/TP06-WEB-STATEFUL-DAO-E-0.0.1-SNAPSHOT/BankBean
+	java:module/BankBean
+
+2023-11-06 15:48:08,097 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-2) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-11-06 15:48:08,232 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-2) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-11-06 15:48:08,233 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-2) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=TP06-WEB-STATEFUL-DAO-E-0.0.1-SNAPSHOT.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=Adriens-MacBook-Pro-II-2.local, jaeger.version=Java-1.6.0, ip=127.0.0.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-11-06 15:48:08,712 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 90) Initializing Mojarra 4.0.0.SP01 for context '/TP06-WEB-STATEFUL-DAO-E-0.0.1-SNAPSHOT'
+2023-11-06 15:48:08,796 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0021: Registered web context: '/TP06-WEB-STATEFUL-DAO-E-0.0.1-SNAPSHOT' for server 'default-server'
+2023-11-06 15:48:08,833 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "TP06-WEB-STATEFUL-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name : "TP06-WEB-STATEFUL-DAO-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:48:19,354 INFO  [stdout] (default task-1) History initialized
+2023-11-06 15:48:32,338 INFO  [stdout] (default task-1) AccountDAO::Account modified:5
+2023-11-06 15:48:32,339 INFO  [stdout] (default task-1) AccountDAO::Account modified:1
+2023-11-06 15:48:32,340 INFO  [stdout] (default task-1) history size: 1
+2023-11-06 15:48:43,468 INFO  [stdout] (default task-1) AccountDAO::Account modified:5
+2023-11-06 15:48:43,473 INFO  [stdout] (default task-1) AccountDAO::Account modified:2
+2023-11-06 15:48:43,474 INFO  [stdout] (default task-1) history size: 2
+2023-11-06 15:49:04,047 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0022: Unregistered web context: '/TP06-WEB-STATEFUL-DAO-E-0.0.1-SNAPSHOT' from server 'default-server'
+2023-11-06 15:49:04,077 INFO  [stdout] (ServerService Thread Pool -- 90) Destruction
+2023-11-06 15:49:04,115 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment TP06-WEB-STATEFUL-DAO-E-0.0.1-SNAPSHOT.war (runtime-name: TP06-WEB-STATEFUL-DAO-E-0.0.1-SNAPSHOT.war) in 75ms
+2023-11-06 15:49:04,133 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data/content/d6/c098361ba8f7fa81ece19bdbdbd8b6c2896b2b/content
+2023-11-06 15:49:04,133 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "TP06-WEB-STATEFUL-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP06-WEB-STATEFUL-DAO-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:51:53,491 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data/content/ed/608a6280253552833f2ce2e374b44d735511c1/content
+2023-11-06 15:51:53,495 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:51:53,600 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war
+2023-11-06 15:51:53,664 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'BankWrapperBean' in deployment unit 'deployment "TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war"' are as follows:
+
+	java:global/TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT/BankWrapperBean!ch.hevs.bankservice.BankWrapper
+	java:app/TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT/BankWrapperBean!ch.hevs.bankservice.BankWrapper
+	java:module/BankWrapperBean!ch.hevs.bankservice.BankWrapper
+	java:global/TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT/BankWrapperBean
+	java:app/TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT/BankWrapperBean
+	java:module/BankWrapperBean
+
+2023-11-06 15:51:53,664 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'BankBean' in deployment unit 'deployment "TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war"' are as follows:
+
+	java:global/TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT/BankBean!ch.hevs.bankservice.Bank
+	java:app/TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT/BankBean!ch.hevs.bankservice.Bank
+	java:module/BankBean!ch.hevs.bankservice.Bank
+	java:global/TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT/BankBean
+	java:app/TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT/BankBean
+	java:module/BankBean
+
+2023-11-06 15:51:53,690 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-7) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-11-06 15:51:53,876 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-7) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-11-06 15:51:53,877 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-7) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=Adriens-MacBook-Pro-II-2.local, jaeger.version=Java-1.6.0, ip=127.0.0.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-11-06 15:51:54,346 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 101) Initializing Mojarra 4.0.0.SP01 for context '/TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT'
+2023-11-06 15:51:54,435 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 101) WFLYUT0021: Registered web context: '/TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT' for server 'default-server'
+2023-11-06 15:51:54,474 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name : "TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war")
+2023-11-06 15:52:13,660 INFO  [stdout] (default task-1) Client inserted in the database with id  4
+2023-11-06 15:52:13,671 INFO  [stdout] (default task-1) AccountDAO::Account modified:5
+2023-11-06 15:52:13,673 INFO  [stdout] (default task-1) AccountDAO::Account modified:1
+2023-11-06 15:52:13,673 INFO  [stdout] (default task-1)  [Simulation] - An exception has just been generated by the database after the update of the account 1
+2023-11-06 15:52:23,709 ERROR [org.jboss.as.ejb3.invocation] (default task-1) WFLYEJB0034: Jakarta Enterprise Beans Invocation failed on component BankBean for method public abstract void ch.hevs.bankservice.Bank.transfer(ch.hevs.businessobject.Account,ch.hevs.businessobject.Account,int) throws ch.hevs.exception.BankException: jakarta.ejb.EJBTransactionRolledbackException: simulation of a technical problem
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInCallerTx(CMTTxInterceptor.java:219)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:392)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:160)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:72)
+	at org.jboss.as.weld.common@27.0.0.Final//org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:89)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.security.IdentityOutflowInterceptor.processInvocation(IdentityOutflowInterceptor.java:73)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.security.SecurityDomainInterceptor.processInvocation(SecurityDomainInterceptor.java:44)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.elytron-base@2.0.0.Final//org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:633)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:191)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:81)
+	at deployment.TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war//ch.hevs.bankservice.Bank$$$view9.transfer(Unknown Source)
+	at deployment.TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war//ch.hevs.bankservice.BankWrapperBean.transferAndCreateClient(BankWrapperBean.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.common@27.0.0.Final//org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.delegateInterception(Jsr299BindingsInterceptor.java:79)
+	at org.jboss.as.weld.common@27.0.0.Final//org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:89)
+	at org.jboss.as.weld.common@27.0.0.Final//org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:102)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa@27.0.0.Final//org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:56)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:254)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:390)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:160)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:72)
+	at org.jboss.as.weld.common@27.0.0.Final//org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:89)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.security.IdentityOutflowInterceptor.processInvocation(IdentityOutflowInterceptor.java:73)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.security.SecurityDomainInterceptor.processInvocation(SecurityDomainInterceptor.java:44)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.elytron-base@2.0.0.Final//org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:633)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:191)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:81)
+	at deployment.TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war//ch.hevs.bankservice.BankWrapper$$$view7.transferAndCreateClient(Unknown Source)
+	at deployment.TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war//ch.hevs.managedbeans.TransferBean.performTransfer(TransferBean.java:100)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.glassfish.expressly@5.0.0//org.glassfish.expressly.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:186)
+	at org.glassfish.expressly@5.0.0//org.glassfish.expressly.parser.AstValue.invoke(AstValue.java:253)
+	at org.glassfish.expressly@5.0.0//org.glassfish.expressly.MethodExpressionImpl.invoke(MethodExpressionImpl.java:248)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.module.web.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.module.web.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at com.sun.jsf-impl@4.0.0.SP01//com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:70)
+	at com.sun.jsf-impl@4.0.0.SP01//com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:74)
+	at com.sun.jsf-impl@4.0.0.SP01//com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:62)
+	at jakarta.faces.api//jakarta.faces.component.UICommand.broadcast(UICommand.java:205)
+	at jakarta.faces.api//jakarta.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:858)
+	at jakarta.faces.api//jakarta.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1332)
+	at com.sun.jsf-impl@4.0.0.SP01//com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:56)
+	at com.sun.jsf-impl@4.0.0.SP01//com.sun.faces.lifecycle.Phase.doPhase(Phase.java:72)
+	at com.sun.jsf-impl@4.0.0.SP01//com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:159)
+	at jakarta.faces.api//jakarta.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:691)
+	at jakarta.faces.api//jakarta.faces.webapp.FacesServlet.service(FacesServlet.java:449)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.smallrye.opentracing-contrib//io.smallrye.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:69)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.security.elytron-web.undertow-server@3.0.0.Final//org.wildfly.elytron.web.undertow.server.ElytronRunAsHandler.lambda$handleRequest$1(ElytronRunAsHandler.java:68)
+	at org.wildfly.security.elytron-base@2.0.0.Final//org.wildfly.security.auth.server.FlexibleIdentityAssociation.runAsFunctionEx(FlexibleIdentityAssociation.java:103)
+	at org.wildfly.security.elytron-base@2.0.0.Final//org.wildfly.security.auth.server.Scoped.runAsFunctionEx(Scoped.java:161)
+	at org.wildfly.security.elytron-base@2.0.0.Final//org.wildfly.security.auth.server.Scoped.runAs(Scoped.java:73)
+	at org.wildfly.security.elytron-web.undertow-server@3.0.0.Final//org.wildfly.elytron.web.undertow.server.ElytronRunAsHandler.handleRequest(ElytronRunAsHandler.java:67)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.core@2.3.0.Final//io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.core@2.3.0.Final//io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at org.wildfly.security.elytron-web.undertow-server-servlet@3.0.0.Final//org.wildfly.elytron.web.undertow.server.servlet.CleanUpHandler.handleRequest(CleanUpHandler.java:38)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@27.0.0.Final//org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@27.0.0.Final//org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:275)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:134)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:131)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@27.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1435)
+	at org.wildfly.extension.undertow@27.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1435)
+	at org.wildfly.extension.undertow@27.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1435)
+	at org.wildfly.extension.undertow@27.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1435)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:255)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:100)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.Connectors.executeRootHandler(Connectors.java:391)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:859)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at org.jboss.xnio@3.8.8.Final//org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1282)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: ch.hevs.exception.BankException: simulation of a technical problem
+	at deployment.TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war//ch.hevs.dao.AccountDAO.saveOrUpdate2(AccountDAO.java:33)
+	at deployment.TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war//ch.hevs.bankservice.BankBean.transfer(BankBean.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.common@27.0.0.Final//org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.delegateInterception(Jsr299BindingsInterceptor.java:79)
+	at org.jboss.as.weld.common@27.0.0.Final//org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:89)
+	at org.jboss.as.weld.common@27.0.0.Final//org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:102)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa@27.0.0.Final//org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:56)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInCallerTx(CMTTxInterceptor.java:201)
+	... 165 more
+
+2023-11-06 15:52:23,746 ERROR [org.jboss.as.ejb3.invocation] (default task-1) WFLYEJB0034: Jakarta Enterprise Beans Invocation failed on component BankWrapperBean for method public abstract void ch.hevs.bankservice.BankWrapper.transferAndCreateClient(ch.hevs.businessobject.Account,ch.hevs.businessobject.Account,int) throws ch.hevs.exception.BankException: jakarta.ejb.EJBTransactionRolledbackException: simulation of a technical problem
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInCallerTx(CMTTxInterceptor.java:219)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:392)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:160)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:72)
+	at org.jboss.as.weld.common@27.0.0.Final//org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:89)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.security.IdentityOutflowInterceptor.processInvocation(IdentityOutflowInterceptor.java:73)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.security.SecurityDomainInterceptor.processInvocation(SecurityDomainInterceptor.java:44)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.elytron-base@2.0.0.Final//org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:633)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:191)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:81)
+	at deployment.TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war//ch.hevs.bankservice.Bank$$$view9.transfer(Unknown Source)
+	at deployment.TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war//ch.hevs.bankservice.BankWrapperBean.transferAndCreateClient(BankWrapperBean.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.common@27.0.0.Final//org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.delegateInterception(Jsr299BindingsInterceptor.java:79)
+	at org.jboss.as.weld.common@27.0.0.Final//org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:89)
+	at org.jboss.as.weld.common@27.0.0.Final//org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:102)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa@27.0.0.Final//org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:56)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:254)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:390)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:160)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:72)
+	at org.jboss.as.weld.common@27.0.0.Final//org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:89)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.security.IdentityOutflowInterceptor.processInvocation(IdentityOutflowInterceptor.java:73)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.security.SecurityDomainInterceptor.processInvocation(SecurityDomainInterceptor.java:44)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.elytron-base@2.0.0.Final//org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:633)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:191)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:81)
+	at deployment.TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war//ch.hevs.bankservice.BankWrapper$$$view7.transferAndCreateClient(Unknown Source)
+	at deployment.TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war//ch.hevs.managedbeans.TransferBean.performTransfer(TransferBean.java:100)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.glassfish.expressly@5.0.0//org.glassfish.expressly.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:186)
+	at org.glassfish.expressly@5.0.0//org.glassfish.expressly.parser.AstValue.invoke(AstValue.java:253)
+	at org.glassfish.expressly@5.0.0//org.glassfish.expressly.MethodExpressionImpl.invoke(MethodExpressionImpl.java:248)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.module.web.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.module.web.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at com.sun.jsf-impl@4.0.0.SP01//com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:70)
+	at com.sun.jsf-impl@4.0.0.SP01//com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:74)
+	at com.sun.jsf-impl@4.0.0.SP01//com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:62)
+	at jakarta.faces.api//jakarta.faces.component.UICommand.broadcast(UICommand.java:205)
+	at jakarta.faces.api//jakarta.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:858)
+	at jakarta.faces.api//jakarta.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1332)
+	at com.sun.jsf-impl@4.0.0.SP01//com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:56)
+	at com.sun.jsf-impl@4.0.0.SP01//com.sun.faces.lifecycle.Phase.doPhase(Phase.java:72)
+	at com.sun.jsf-impl@4.0.0.SP01//com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:159)
+	at jakarta.faces.api//jakarta.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:691)
+	at jakarta.faces.api//jakarta.faces.webapp.FacesServlet.service(FacesServlet.java:449)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.smallrye.opentracing-contrib//io.smallrye.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:69)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.security.elytron-web.undertow-server@3.0.0.Final//org.wildfly.elytron.web.undertow.server.ElytronRunAsHandler.lambda$handleRequest$1(ElytronRunAsHandler.java:68)
+	at org.wildfly.security.elytron-base@2.0.0.Final//org.wildfly.security.auth.server.FlexibleIdentityAssociation.runAsFunctionEx(FlexibleIdentityAssociation.java:103)
+	at org.wildfly.security.elytron-base@2.0.0.Final//org.wildfly.security.auth.server.Scoped.runAsFunctionEx(Scoped.java:161)
+	at org.wildfly.security.elytron-base@2.0.0.Final//org.wildfly.security.auth.server.Scoped.runAs(Scoped.java:73)
+	at org.wildfly.security.elytron-web.undertow-server@3.0.0.Final//org.wildfly.elytron.web.undertow.server.ElytronRunAsHandler.handleRequest(ElytronRunAsHandler.java:67)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.core@2.3.0.Final//io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.core@2.3.0.Final//io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at org.wildfly.security.elytron-web.undertow-server-servlet@3.0.0.Final//org.wildfly.elytron.web.undertow.server.servlet.CleanUpHandler.handleRequest(CleanUpHandler.java:38)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@27.0.0.Final//org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@27.0.0.Final//org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:275)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:134)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:131)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@27.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1435)
+	at org.wildfly.extension.undertow@27.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1435)
+	at org.wildfly.extension.undertow@27.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1435)
+	at org.wildfly.extension.undertow@27.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1435)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:255)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:100)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.Connectors.executeRootHandler(Connectors.java:391)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:859)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at org.jboss.xnio@3.8.8.Final//org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1282)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: ch.hevs.exception.BankException: simulation of a technical problem
+	at deployment.TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war//ch.hevs.dao.AccountDAO.saveOrUpdate2(AccountDAO.java:33)
+	at deployment.TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war//ch.hevs.bankservice.BankBean.transfer(BankBean.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.common@27.0.0.Final//org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.delegateInterception(Jsr299BindingsInterceptor.java:79)
+	at org.jboss.as.weld.common@27.0.0.Final//org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:89)
+	at org.jboss.as.weld.common@27.0.0.Final//org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:102)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa@27.0.0.Final//org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee@27.0.0.Final//org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:56)
+	at org.jboss.invocation@1.7.0.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@27.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInCallerTx(CMTTxInterceptor.java:201)
+	... 165 more
+
+2023-11-06 15:52:23,751 INFO  [stdout] (default task-1) simulation of a technical problem
+2023-11-06 15:52:52,956 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 104) WFLYUT0022: Unregistered web context: '/TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT' from server 'default-server'
+2023-11-06 15:52:53,027 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war (runtime-name: TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war) in 84ms
+2023-11-06 15:52:53,053 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data/content/ed/608a6280253552833f2ce2e374b44d735511c1/content
+2023-11-06 15:52:53,053 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP07-WEB-EJBTRANSACTION-DAO-E-0.0.1-SNAPSHOT.war")
+2023-11-06 20:35:26,267 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0272: Suspending server
+2023-11-06 20:35:26,287 INFO  [org.jboss.as.ejb3] (management-handler-thread - 2) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-11-06 20:35:26,291 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2023-11-06 20:35:26,364 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:/labsDS]
+2023-11-06 20:35:26,376 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2023-11-06 20:35:26,385 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 113) WFLYUT0022: Unregistered web context: '/TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT' from server 'default-server'
+2023-11-06 20:35:26,420 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = hsqldb
+2023-11-06 20:35:26,449 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0019: Host default-host stopping
+2023-11-06 20:35:26,457 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2023-11-06 20:35:26,475 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2023-11-06 20:35:26,491 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTPS listener https suspending
+2023-11-06 20:35:26,491 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTP listener default suspending
+2023-11-06 20:35:26,494 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2023-11-06 20:35:26,495 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2023-11-06 20:35:26,500 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war (runtime-name: TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war) in 201ms
+2023-11-06 20:35:26,504 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0004: Undertow 2.3.0.Final stopping
+2023-11-06 20:35:26,560 ERROR [io.undertow.request.io] (default I/O-17) UT005090: Unexpected failure: java.lang.IllegalStateException: UT000131: Buffer pool is closed
+	at io.undertow.core@2.3.0.Final//io.undertow.server.DefaultByteBufferPool.allocate(DefaultByteBufferPool.java:117)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.protocol.http.HttpResponseConduit.processWrite(HttpResponseConduit.java:166)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.protocol.http.HttpResponseConduit.flush(HttpResponseConduit.java:746)
+	at io.undertow.core@2.3.0.Final//io.undertow.conduits.AbstractFixedLengthStreamSinkConduit.flush(AbstractFixedLengthStreamSinkConduit.java:229)
+	at org.jboss.xnio@3.8.8.Final//org.xnio.conduits.ConduitStreamSinkChannel.flush(ConduitStreamSinkChannel.java:162)
+	at io.undertow.core@2.3.0.Final//io.undertow.channels.DetachableStreamSinkChannel.flush(DetachableStreamSinkChannel.java:119)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.HttpServerExchange.closeAndFlushResponse(HttpServerExchange.java:1811)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.HttpServerExchange.endExchange(HttpServerExchange.java:1781)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.Connectors.executeRootHandler(Connectors.java:416)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.protocol.http.HttpReadListener.handleEventWithNoRunningRequest(HttpReadListener.java:256)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:136)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.protocol.http.HttpOpenListener.handleEvent(HttpOpenListener.java:162)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.protocol.http.HttpOpenListener.handleEvent(HttpOpenListener.java:100)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.protocol.http.HttpOpenListener.handleEvent(HttpOpenListener.java:57)
+	at org.jboss.xnio@3.8.8.Final//org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.jboss.xnio@3.8.8.Final//org.xnio.ChannelListeners$10.handleEvent(ChannelListeners.java:291)
+	at org.jboss.xnio@3.8.8.Final//org.xnio.ChannelListeners$10.handleEvent(ChannelListeners.java:286)
+	at org.jboss.xnio@3.8.8.Final//org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.jboss.xnio.nio@3.8.8.Final//org.xnio.nio.QueuedNioTcpServer2.acceptTask(QueuedNioTcpServer2.java:178)
+	at org.jboss.xnio.nio@3.8.8.Final//org.xnio.nio.WorkerThread.safeRun(WorkerThread.java:612)
+	at org.jboss.xnio.nio@3.8.8.Final//org.xnio.nio.WorkerThread.run(WorkerThread.java:479)
+
+2023-11-06 20:35:26,572 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Full 27.0.0.Final (WildFly Core 19.0.0.Final) stopped in 272ms
+2023-11-06 20:35:27,445 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.3.Final
+2023-11-06 20:35:28,434 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-11-06 20:35:28,442 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-11-06 20:35:28,582 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 27.0.0.Final (WildFly Core 19.0.0.Final) starting
+2023-11-06 20:35:28,588 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	gopherProxySet = false
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/jboss-modules.jar
+	java.class.version = 55.0
+	java.home = /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
+	java.io.tmpdir = /var/folders/r1/z4c2jnjj3jz66n0v79snkc8m0000gn/T/
+	java.library.path = /Users/Adrien/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 11.0.14.1+1-LTS
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Azul Systems, Inc.
+	java.vendor.url = http://www.azul.com/
+	java.vendor.url.bug = http://www.azul.com/support/
+	java.vendor.version = Zulu11.54+25-CA
+	java.version = 11.0.14.1
+	java.version.date = 2022-02-08
+	java.vm.compressedOopsMode = Zero based
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = Azul Systems, Inc.
+	java.vm.version = 11.0.14.1+1-LTS
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final
+	jboss.host.name = adriensmbpii2
+	jboss.modules.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = adriensmbpii2
+	jboss.qualified.host.name = adriensmbpii2
+	jboss.server.base.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone
+	jboss.server.config.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/configuration
+	jboss.server.data.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data
+	jboss.server.deploy.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data/content
+	jboss.server.log.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/log
+	jboss.server.name = adriensmbpii2
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/tmp
+	jdk.debug = release
+	jdk.vendor.version = Zulu11.54+25-CA
+	line.separator = 
+
+	logging.configuration = file:/Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/configuration/logging.properties
+	module.path = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/modules
+	org.jboss.boot.log.file = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 14.0
+	path.separator = :
+	program.name = JBossTools: WildFly 27+
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = org.jboss.modules.Main -mp /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=/Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/bin
+	user.home = /Users/Adrien
+	user.language = en
+	user.name = Adrien
+	user.timezone = Europe/Zurich
+2023-11-06 20:35:28,596 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly 27+ -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=/Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final -Dorg.jboss.logmanager.nocolor=true --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2023-11-06 20:35:30,293 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.0.0.Final
+2023-11-06 20:35:30,934 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 30) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-11-06 20:35:30,943 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 30) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-11-06 20:35:31,561 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 11) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-11-06 20:35:31,759 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-11-06 20:35:31,789 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.8.8.Final
+2023-11-06 20:35:31,798 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.8.8.Final
+2023-11-06 20:35:31,920 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 76) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-11-06 20:35:31,919 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 54) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-11-06 20:35:31,937 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-11-06 20:35:31,937 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 67) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-11-06 20:35:31,937 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 69) WFLYNAM0001: Activating Naming Subsystem
+2023-11-06 20:35:31,941 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 58) WFLYRS0016: RESTEasy version 6.2.1.Final
+2023-11-06 20:35:31,979 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 68) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-11-06 20:35:32,006 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.26.Final
+2023-11-06 20:35:31,979 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-11-06 20:35:31,979 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 66) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-11-06 20:35:31,979 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 78) WFLYWS0002: Activating WebServices Extension
+2023-11-06 20:35:32,018 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 57) WFLYIO001: Worker 'default' has auto-configured to 20 IO threads with 160 max task threads based on your 10 available processors
+2023-11-06 20:35:32,046 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 55) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-11-06 20:35:32,084 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.9.Final)
+2023-11-06 20:35:32,092 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2023-11-06 20:35:32,160 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 65) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-11-06 20:35:32,196 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-11-06 20:35:32,331 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 2.3.0.Final starting
+2023-11-06 20:35:32,368 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2023-11-06 20:35:32,439 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-11-06 20:35:32,655 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.hsqldb.jdbcDriver (version 1.8)
+2023-11-06 20:35:32,724 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = hsqldb
+2023-11-06 20:35:32,804 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 160 (per class), which is derived from thread worker pool sizing.
+2023-11-06 20:35:32,795 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-4) WFLYELY00023: KeyStore file '/Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/configuration/application.keystore' does not exist. Used blank.
+2023-11-06 20:35:32,804 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 40 (per class), which is derived from the number of CPUs on this host.
+2023-11-06 20:35:32,850 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-4) WFLYELY01084: KeyStore /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-11-06 20:35:32,893 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0014: Creating file handler for path '/Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-11-06 20:35:32,912 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2023-11-06 20:35:32,922 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) Queuing requests.
+2023-11-06 20:35:32,931 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2023-11-06 20:35:33,130 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-11-06 20:35:33,527 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-11-06 20:35:33,564 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-11-06 20:35:33,647 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-11-06 20:35:33,648 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:/labsDS]
+2023-11-06 20:35:33,670 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war")
+2023-11-06 20:35:33,691 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-11-06 20:35:33,705 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/deployments
+2023-11-06 20:35:33,786 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBossWS 6.1.0.Final (Apache CXF 3.5.2.jbossorg-3) 
+2023-11-06 20:35:34,717 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 81) WFLYUT0021: Registered web context: '/TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT' for server 'default-server'
+2023-11-06 20:35:34,846 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war" (runtime-name : "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war")
+2023-11-06 20:35:34,928 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-11-06 20:35:34,931 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 27.0.0.Final (WildFly Core 19.0.0.Final) started in 8063ms - Started 390 of 642 services (362 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-11-06 20:35:34,935 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-11-06 20:35:34,935 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-11-06 20:35:49,160 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 24) WFLYUT0022: Unregistered web context: '/TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT' from server 'default-server'
+2023-11-06 20:35:49,212 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war (runtime-name: TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war) in 67ms
+2023-11-06 20:35:49,323 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /Users/Adrien/Documents/Enseignement/63-41 Implementing Services/TPs/rootJakartaEE_sandbox/tools/wildfly-27.0.0.Final/standalone/data/content/bc/0a227168289f12da57c480f7d53b4c4549882b/content
+2023-11-06 20:35:49,323 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war")
+2023-11-06 20:40:37,063 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0272: Suspending server
+2023-11-06 20:40:37,067 INFO  [org.jboss.as.ejb3] (Thread-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-11-06 20:40:37,076 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2023-11-06 20:40:37,185 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2023-11-06 20:40:37,185 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:/labsDS]
+2023-11-06 20:40:37,189 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+2023-11-06 20:40:37,192 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2023-11-06 20:40:37,209 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTPS listener https suspending
+2023-11-06 20:40:37,218 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2023-11-06 20:40:37,225 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2023-11-06 20:40:37,231 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = hsqldb
+2023-11-06 20:40:37,246 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTP listener default suspending
+2023-11-06 20:40:37,247 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2023-11-06 20:40:37,264 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Undertow 2.3.0.Final stopping
+2023-11-06 20:40:37,287 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Full 27.0.0.Final (WildFly Core 19.0.0.Final) stopped in 208ms

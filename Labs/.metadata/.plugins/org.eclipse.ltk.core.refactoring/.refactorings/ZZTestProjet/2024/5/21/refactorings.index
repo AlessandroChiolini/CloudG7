@@ -1,0 +1,7 @@
+1716319996783	Rename package 'ch.hevs.bankservice'
+1716320056101	Rename type 'Client'
+1716320080692	Rename type 'Account'
+1716320096415	Rename type 'Bank'
+1716320106272	Rename type 'BankBean'
+1716320133617	Rename field 'clientNames'
+1716320228621	Rename field 'id'

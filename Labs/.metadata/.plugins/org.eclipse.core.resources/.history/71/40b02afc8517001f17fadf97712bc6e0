@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core">
+
+<ui:composition template="/WEB-INF/templates/BasicTemplate.xhtml">
+    <ui:define name="content">
+        <h:form>
+            <h:outputLabel value="Which transfer do you want to realize:" />
+            <br></br>
+            <h:panelGrid columns="4">
+                <h:outputText value="Club actuel du joueur " />
+                <h:selectOneMenu value="#{transferBean.sourceClubName}" valueChangeListener="#{transferBean.updateSourcePlayers}" onchange="submit()">
+                    <f:selectItems value="#{transferBean.clubNames}" />
+                </h:selectOneMenu>
+                <h:outputText value="Joueur à transférer: " />
+                <h:selectOneMenu value="#{transferBean.sourcePlayer}" converter="#{playerConverter}">
+                    <f:selectItems value="#{transferBean.sourcePlayers}" var="player" itemValue="#{player}" itemLabel="#{player.firstname} #{player.lastname}" />
+                </h:selectOneMenu>
+                <h:outputText value="Nouveau club du joueur: " />
+                <h:selectOneMenu value="#{transferBean.destinationClubName}" valueChangeListener="#{transferBean.updateDestinationPlayers}" onchange="submit()">
+                    <f:selectItems value="#{transferBean.clubNames}" />
+                </h:selectOneMenu>
+                <h:outputText value="Amount:" />
+                <h:inputText value="#{transferBean.transactionAmount}" maxlength="6" style="width: 40px;" />
+            </h:panelGrid>
+            <h:commandButton value="Transfer" action="#{transferBean.performTransfer}" />
+        </h:form>
+    </ui:define>
+</ui:composition>
+</html>

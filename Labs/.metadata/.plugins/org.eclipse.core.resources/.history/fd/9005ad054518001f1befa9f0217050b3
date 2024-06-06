@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core">
+
+<ui:composition template="/WEB-INF/templates/BasicTemplate.xhtml">
+    <ui:define name="content">
+        <h:outputLabel value="Welcome to the Football Management System"></h:outputLabel>
+        <br></br>
+        <h:form>
+            <h:commandLink action="addPlayer">
+                <h:outputText value="Add Player" />
+            </h:commandLink>
+            <br></br>
+            <h:commandLink action="listPlayers">
+                <h:outputText value="List Players" />
+            </h:commandLink>
+            <br></br>
+            <h:commandLink action="addClub">
+                <h:outputText value="Add Club" />
+            </h:commandLink>
+            <br></br>
+            <h:commandLink action="listClubs">
+                <h:outputText value="List Clubs" />
+            </h:commandLink>
+            <br></br>
+            <h:commandLink action="addLeague">
+                <h:outputText value="Add League" />
+            </h:commandLink>
+            <br></br>
+            <h:commandLink action="listLeagues">
+                <h:outputText value="List Leagues" />
+            </h:commandLink>
+        </h:form>
+    </ui:define>
+</ui:composition>
+</html>

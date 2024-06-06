@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:#welcomeBank.xhtml" PATH="/welcomeBank.xhtml"
+  SHAPE="32,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#welcomeBank.xhtml:0" NAME="item"
+   PATH="/welcomeBank.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="transferForm::#transferForm.xhtml"
+    NAME="output" PATH="/transferForm.xhtml"
+    TARGET="rules:#transferForm.xhtml" TITLE="transferForm" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#welcomeBank.xhtml:1" NAME="item1"
+   PATH="/welcomeBank.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="showHistory::#showHistory.xhtml"
+    NAME="output" PATH="/showHistory.xhtml"
+    TARGET="rules:#showHistory.xhtml" TITLE="showHistory" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#transferForm.xhtml"
+  PATH="/transferForm.xhtml" SHAPE="256,33,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#transferForm.xhtml:0" NAME="item"
+   PATH="/transferForm.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="#{transferBean.performTransfer}::#showTransferResult.xhtml"
+    NAME="output" PATH="/showTransferResult.xhtml"
+    TARGET="rules:#showTransferResult.xhtml"
+    TITLE="#{transferBean.performTransfer}" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#showTransferResult.xhtml"
+  PATH="/showTransferResult.xhtml" SHAPE="464,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#showTransferResult.xhtml:0" NAME="item"
+   PATH="/showTransferResult.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="showHistory::#showHistory.xhtml"
+    NAME="output" PATH="/showHistory.xhtml"
+    TARGET="rules:#showHistory.xhtml" TITLE="showHistory" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#showHistory.xhtml" PATH="/showHistory.xhtml"
+  SHAPE="688,33,0,0" model-entity="JSFProcessGroup"/>
+</PROCESS>

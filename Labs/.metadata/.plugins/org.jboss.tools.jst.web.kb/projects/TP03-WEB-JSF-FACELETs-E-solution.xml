@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/aless/.m2/repository/jakarta/platform/jakarta.jakartaee-web-api/9.0.0/jakarta.jakartaee-web-api-9.0.0.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jboss.cdi.core"/>
+  <el>
+   <linked-el length="36" name="%0" offset="1116" path="%1"/>
+   <linked-el length="34" name="%2" offset="650" path="%1"/>
+   <linked-el length="39" name="%3" offset="883" path="%1"/>
+   <linked-el length="33" name="%4" offset="1255" path="%1"/>
+   <linked-el length="36" name="%5" offset="499" path="%6"/>
+   <linked-el length="34" name="%7" offset="650" path="%1"/>
+   <linked-el length="33" name="%7" offset="1255" path="%1"/>
+   <linked-el length="32" name="%7" offset="957" path="%1"/>
+   <linked-el length="36" name="%7" offset="499" path="%6"/>
+   <linked-el length="36" name="%7" offset="1116" path="%1"/>
+   <linked-el length="32" name="%7" offset="719" path="%1"/>
+   <linked-el length="39" name="%7" offset="883" path="%1"/>
+   <linked-el length="32" name="%8" offset="957" path="%1"/>
+   <linked-el length="32" name="%8" offset="719" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="transferBean.transactionAmount" value="%0"/>
+  <alias path="transferBean.sourceClientName" value="%2"/>
+  <alias
+   path="/TP03-WEB-JSF-FACELETs-E-solution/src/main/webapp/showTransferResult.xhtml" value="%6"/>
+  <alias path="transferBean.destinationClientName" value="%3"/>
+  <alias path="transferBean.performTransfer" value="%4"/>
+  <alias path="transferBean.transactionResult" value="%5"/>
+  <alias
+   path="/TP03-WEB-JSF-FACELETs-E-solution/src/main/webapp/transferForm.xhtml" value="%1"/>
+  <alias path="transferBean" value="%7"/>
+  <alias path="transferBean.clientNameList" value="%8"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>

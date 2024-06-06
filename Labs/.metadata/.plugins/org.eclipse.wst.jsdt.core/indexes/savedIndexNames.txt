@@ -1,0 +1,21 @@
+INDEX VERSION 1.4+C:\Users\aless\OneDrive\Bureau\Jakarta\rootJakartaEE\Labs\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+196697968.index
+1003573247.index
+2854137899.index
+143954372.index
+2134941091.index
+1263733643.index
+541735961.index
+3067710649.index
+3609736050.index
+4269694658.index
+2394991442.index
+3275457287.index
+1386469831.index
+39867774.index
+2167517749.index
+977840514.index
+815778048.index
+2802135344.index
+2560103287.index
+809183368.index

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="TP01-TESTU-POJO-DAO-E-donnee">
+        <wb-resource deploy-path="/" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/" source-path="/src/test/resources"/>
+                
+        <property name="context-root" value="TP01-TESTU-POJO-DAO-E-donnee"/>
+                
+        <property name="java-output-path" value="/TP01-TESTU-POJO-DAO-E-donnee/target/classes"/>
+            
+    </wb-module>
+    
+</project-modules>

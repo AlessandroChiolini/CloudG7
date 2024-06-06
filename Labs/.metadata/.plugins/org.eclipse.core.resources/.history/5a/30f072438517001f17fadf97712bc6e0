@@ -1,0 +1,132 @@
+package ch.hevs.managedbeans;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+
+import ch.hevs.mercatoservice.Mercato;
+import ch.hevs.businessobject.Club;
+import ch.hevs.businessobject.Player;
+import jakarta.annotation.ManagedBean;
+import jakarta.annotation.PostConstruct;
+import jakarta.enterprise.context.SessionScoped;
+import jakarta.faces.event.ValueChangeEvent;
+import jakarta.inject.Named;
+
+@ManagedBean
+@SessionScoped
+@Named("transferBean")
+public class TransferBean implements Serializable {
+    private List<String> clubNames;
+    private List<Player> sourcePlayers;
+    private List<Player> destinationPlayers;
+    private Player sourcePlayer;
+    private Player destinationPlayer;
+    private String sourceClubName;
+    private String destinationClubName;
+    private String transactionResult;
+    private Mercato mercato;
+    private int transactionAmount;
+
+    @PostConstruct
+    public void initialize() throws NamingException {
+        // use JNDI to inject reference to bank EJB
+        InitialContext ctx = new InitialContext();
+        mercato = (Mercato) ctx.lookup("java:global/TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT/MercatoBean!ch.hevs.mercatoservice.Mercato");
+
+        // get clubs
+        List<Club> clubList = mercato.getAllClubs();
+        this.clubNames = new ArrayList<>();
+        for (Club club : clubList) {
+            this.clubNames.add(club.getName());
+        }
+
+        // initialize player lists
+        this.sourcePlayers = new ArrayList<>();
+        this.destinationPlayers = new ArrayList<>();
+    }
+
+    public List<String> getClubNames() {
+        return clubNames;
+    }
+
+    public List<Player> getSourcePlayers() {
+        return sourcePlayers;
+    }
+
+    public List<Player> getDestinationPlayers() {
+        return destinationPlayers;
+    }
+
+    public Player getSourcePlayer() {
+        return sourcePlayer;
+    }
+
+    public void setSourcePlayer(Player sourcePlayer) {
+        this.sourcePlayer = sourcePlayer;
+    }
+
+    public Player getDestinationPlayer() {
+        return destinationPlayer;
+    }
+
+    public void setDestinationPlayer(Player destinationPlayer) {
+        this.destinationPlayer = destinationPlayer;
+    }
+
+    public String getSourceClubName() {
+        return sourceClubName;
+    }
+
+    public void setSourceClubName(String sourceClubName) {
+        this.sourceClubName = sourceClubName;
+    }
+
+    public String getDestinationClubName() {
+        return destinationClubName;
+    }
+
+    public void setDestinationClubName(String destinationClubName) {
+        this.destinationClubName = destinationClubName;
+    }
+
+    public String getTransactionResult() {
+        return transactionResult;
+    }
+
+    public void setTransactionResult(String transactionResult) {
+        this.transactionResult = transactionResult;
+    }
+
+    public int getTransactionAmount() {
+        return transactionAmount;
+    }
+
+    public void setTransactionAmount(int transactionAmount) {
+        this.transactionAmount = transactionAmount;
+    }
+
+    public void updateSourcePlayers(ValueChangeEvent event) {
+        this.sourceClubName = (String) event.getNewValue();
+        this.sourcePlayers = mercato.getPlayerFromClubName(this.sourceClubName);
+    }
+
+    public void updateDestinationPlayers(ValueChangeEvent event) {
+        this.destinationClubName = (String) event.getNewValue();
+        this.destinationPlayers = mercato.getPlayerFromClubName(this.destinationClubName);
+    }
+
+    public String performTransfer() {
+        try {
+            // Check for club and player equality, then perform transfer
+        } catch (Exception e) {
+            e.printStackTrace();
+            this.transactionResult = "Error: transfer failed!";
+        }
+
+        return "showTransferResult"; // Navigate to the result page
+    }
+}

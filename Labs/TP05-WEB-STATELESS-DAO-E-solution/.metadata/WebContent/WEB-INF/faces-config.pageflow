@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf140897937123720" configfile="/TP05-WEB-STATELESS-DAO-E-donnee/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="welcomeBank.xhtml" x="95" y="214" id="pf140897945627321" outlinks="pf140897945627322" path="/welcomeBank.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="transferForm.xhtml" x="312" y="240" id="pf140897945627323" outlinks="pf140897945627324" inlinks="pf140897945627322" path="/transferForm.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="showTransferResult.xhtml" x="693" y="257" id="pf140897945627325" inlinks="pf140897945627324" path="/showTransferResult.xhtml"/>
+  <links id="pf140897945627322" target="pf140897945627323" source="pf140897945627321" outcome="transferForm"/>
+  <links id="pf140897945627324" target="pf140897945627325" source="pf140897945627323" outcome="showTransferResult"/>
+</pageflow:Pageflow>

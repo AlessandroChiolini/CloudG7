@@ -1,0 +1,12 @@
+<module xmlns="urn:jboss:module:1.1" name="org.hsqldb">
+  <resources>
+    <resource-root path="hsqldb.jar"/>
+  </resources>
+
+   <dependencies>
+     <module name="jakarta.persistence.api"/>
+     <module name="jakarta.transaction.api"/>
+         <module name="jakarta.validation.api"/>
+     <module name="org.hibernate"/>
+  </dependencies>
+</module>

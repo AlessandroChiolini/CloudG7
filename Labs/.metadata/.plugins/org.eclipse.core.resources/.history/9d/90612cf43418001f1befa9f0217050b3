@@ -1,0 +1,192 @@
+package ch.hevs.managedbeans;
+
+import java.io.Serializable;
+import java.util.List;
+import java.util.ArrayList;
+
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+
+import ch.hevs.businessobject.Player;
+import ch.hevs.businessobject.Club;
+import ch.hevs.businessobject.League;
+import ch.hevs.footballservice.Football;
+import jakarta.annotation.PostConstruct;
+import jakarta.enterprise.context.SessionScoped;
+import jakarta.faces.event.ValueChangeEvent;
+import jakarta.inject.Named;
+
+@SessionScoped
+@Named("footballBean")
+public class TransferBean implements Serializable {
+    private static final long serialVersionUID = 1L;
+    
+    private List<Player> players;
+    private List<Club> clubs;
+    private List<League> leagues;
+    private Football football;
+
+    // Player related fields
+    private String playerFirstName;
+    private String playerLastName;
+    private int playerAge;
+    private String playerNationality;
+    private Long playerClubId;
+
+    // Club related fields
+    private String clubName;
+    private int clubFoundationYear;
+    private String clubStadium;
+    private Long clubLeagueId;
+
+    // League related fields
+    private String leagueName;
+    private String leagueCountry;
+    private String leagueSeason;
+
+    @PostConstruct
+    public void initialize() throws NamingException {
+        // use JNDI to inject reference to football EJB
+        InitialContext ctx = new InitialContext();
+        football = (Football) ctx.lookup("java:global/YourAppName/FootballBean!ch.hevs.footballservice.Football");
+        
+        // Load initial data
+        players = football.getAllPlayers();
+        clubs = football.getAllClubs();
+        leagues = football.getAllLeagues();
+    }
+
+    // Player related methods
+    public void addPlayer() {
+        Club club = football.getClub(playerClubId);
+        Player player = new Player(playerFirstName, playerLastName, playerAge, playerNationality, club);
+        football.addPlayer(player);
+        players = football.getAllPlayers();  // Refresh the list
+    }
+
+    public List<Player> getPlayers() {
+        return players;
+    }
+
+    // Club related methods
+    public void addClub() {
+        League league = football.getLeague(clubLeagueId);
+        Club club = new Club(clubName, clubFoundationYear, clubStadium, league);
+        football.addClub(club);
+        clubs = football.getAllClubs();  // Refresh the list
+    }
+
+    public List<Club> getClubs() {
+        return clubs;
+    }
+
+    // League related methods
+    public void addLeague() {
+        League league = new League(leagueName, leagueCountry, leagueSeason);
+        football.addLeague(league);
+        leagues = football.getAllLeagues();  // Refresh the list
+    }
+
+    public List<League> getLeagues() {
+        return leagues;
+    }
+
+    // Getters and Setters for Player fields
+    public String getPlayerFirstName() {
+        return playerFirstName;
+    }
+
+    public void setPlayerFirstName(String playerFirstName) {
+        this.playerFirstName = playerFirstName;
+    }
+
+    public String getPlayerLastName() {
+        return playerLastName;
+    }
+
+    public void setPlayerLastName(String playerLastName) {
+        this.playerLastName = playerLastName;
+    }
+
+    public int getPlayerAge() {
+        return playerAge;
+    }
+
+    public void setPlayerAge(int playerAge) {
+        this.playerAge = playerAge;
+    }
+
+    public String getPlayerNationality() {
+        return playerNationality;
+    }
+
+    public void setPlayerNationality(String playerNationality) {
+        this.playerNationality = playerNationality;
+    }
+
+    public Long getPlayerClubId() {
+        return playerClubId;
+    }
+
+    public void setPlayerClubId(Long playerClubId) {
+        this.playerClubId = playerClubId;
+    }
+
+    // Getters and Setters for Club fields
+    public String getClubName() {
+        return clubName;
+    }
+
+    public void setClubName(String clubName) {
+        this.clubName = clubName;
+    }
+
+    public int getClubFoundationYear() {
+        return clubFoundationYear;
+    }
+
+    public void setClubFoundationYear(int clubFoundationYear) {
+        this.clubFoundationYear = clubFoundationYear;
+    }
+
+    public String getClubStadium() {
+        return clubStadium;
+    }
+
+    public void setClubStadium(String clubStadium) {
+        this.clubStadium = clubStadium;
+    }
+
+    public Long getClubLeagueId() {
+        return clubLeagueId;
+    }
+
+    public void setClubLeagueId(Long clubLeagueId) {
+        this.clubLeagueId = clubLeagueId;
+    }
+
+    // Getters and Setters for League fields
+    public String getLeagueName() {
+        return leagueName;
+    }
+
+    public void setLeagueName(String leagueName) {
+        this.leagueName = leagueName;
+    }
+
+    public String getLeagueCountry() {
+        return leagueCountry;
+    }
+
+    public void setLeagueCountry(String leagueCountry) {
+        this.leagueCountry = leagueCountry;
+    }
+
+    public String getLeagueSeason() {
+        return leagueSeason;
+    }
+
+    public void setLeagueSeason(String leagueSeason) {
+        this.leagueSeason = leagueSeason;
+    }
+}
